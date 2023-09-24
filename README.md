@@ -4,17 +4,22 @@ Stabx Modern Guns is an Addon For Famous  [MrcrayFishes Gun Mod](https://www.cur
 
 ## Features
 
-1- High quallity guns but Optimized.
-2- 10 Creative tabes for Each guns categories.
-3- Every gun will have their own unique gun sounds unlike other addons
-4- You can put scope attachments to lot of guns which other addons doesnot lets you do
-5- Their default ironsight will dissapear or changed when U put scope in them
-6- High quality Realistic good sounds  
+- High quallity guns but Optimized.
+
+- 10 Creative tabes for Each guns categories.
+
+- Every gun will have their own unique gun sounds unlike other addons
+
+- You can put scope attachments to lot of guns which other addons doesnot lets you do
+
+- Their default ironsight will dissapear or changed when U put scope in them
+
+- High quality Realistic good sounds  
 
 
 
-# Avaiable
-(https://cf.way2muchnoise.eu/versions/690674.svg)
+# Avaiable for
+### 1.16.5 . 1.18.2 , 1.19.2, 1.19.3 and 1.19.4
 
 ## Contact
 
@@ -23,7 +28,10 @@ If you have any Doubts , and want to contact me join my [Stabx Community Discord
 
 ## Downloads
 
+
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/stabx-modern-guns)
+
+
 [Modrinth](https://modrinth.com/mod/stabx-modern-guns)
 
 
@@ -32,4 +40,11 @@ If you have any Doubts , and want to contact me join my [Stabx Community Discord
 ## Other Socials
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.4)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/RzYnsSnR)
+[![CurseForge](http://cf.way2muchnoise.eu/full_690674_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/stabx-modern-guns)
 
+
+# Other Version Repositories
+
+###  [1.19.3](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.3)
+###  [1.19.2](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.2)
+###  [1.18.2](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.18.2)
