@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 44,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 5,
+      "tag": "minecraft:planks"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:white_dye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:black_dye"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:m1_grande"
+  }
+}

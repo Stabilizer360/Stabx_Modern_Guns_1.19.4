@@ -1,0 +1,423 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"3": "stabxmodernguns:item/aks74ux"
+	},
+	"elements": [
+		{
+			"from": [8.4375, 3.375, 7.5],
+			"to": [9, 3.78125, 7.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.53125, -6.53125, 0.46875]},
+			"faces": {
+				"north": {"uv": [13, 5, 13.125, 5.125], "texture": "#3"},
+				"south": {"uv": [5.25, 13, 5.375, 13.125], "texture": "#3"},
+				"west": {"uv": [13, 5.25, 13.125, 5.375], "texture": "#3"},
+				"up": {"uv": [5.625, 13.125, 5.5, 13], "texture": "#3"},
+				"down": {"uv": [13.125, 5.5, 13, 5.625], "texture": "#3"}
+			}
+		},
+		{
+			"from": [9, 3.375, 7.5],
+			"to": [9.625, 3.875, 7.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.53125, -6.53125, 0.46875]},
+			"faces": {
+				"north": {"uv": [5.75, 13, 5.875, 13.125], "texture": "#3"},
+				"east": {"uv": [13, 5.75, 13.125, 5.875], "texture": "#3"},
+				"south": {"uv": [6, 13, 6.125, 13.125], "texture": "#3"},
+				"up": {"uv": [13.125, 6.125, 13, 6], "texture": "#3"},
+				"down": {"uv": [6.375, 13, 6.25, 13.125], "texture": "#3"}
+			}
+		},
+		{
+			"from": [9.61049, 3.48326, 7.5],
+			"to": [9.73549, 3.76451, 7.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.54799, -6.51674, 0.46875]},
+			"faces": {
+				"north": {"uv": [14, 2, 14.125, 2.125], "texture": "#3"},
+				"east": {"uv": [2.25, 14, 2.375, 14.125], "texture": "#3"},
+				"south": {"uv": [14, 2.25, 14.125, 2.375], "texture": "#3"},
+				"up": {"uv": [2.625, 14.125, 2.5, 14], "texture": "#3"},
+				"down": {"uv": [14.125, 2.5, 14, 2.625], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.86585, 3.75915, 7.5],
+			"to": [9.0221, 3.88415, 7.6875],
+			"rotation": {"angle": 45, "axis": "z", "origin": [9.0221, 3.8529, 7.59375]},
+			"faces": {
+				"north": {"uv": [13, 6.25, 13.125, 6.375], "texture": "#3"},
+				"south": {"uv": [6.5, 13, 6.625, 13.125], "texture": "#3"},
+				"up": {"uv": [13.125, 6.625, 13, 6.5], "texture": "#3"}
+			}
+		},
+		{
+			"from": [9.55792, 3.71306, 7.5],
+			"to": [9.71417, 3.83806, 7.6875],
+			"rotation": {"angle": -45, "axis": "z", "origin": [9.63605, 3.77556, 7.59375]},
+			"faces": {
+				"north": {"uv": [14, 1.25, 14.125, 1.375], "texture": "#3"},
+				"south": {"uv": [1.5, 14, 1.625, 14.125], "texture": "#3"},
+				"up": {"uv": [14.125, 1.625, 14, 1.5], "texture": "#3"}
+			}
+		},
+		{
+			"from": [9.57355, 3.39631, 7.5],
+			"to": [9.69855, 3.55256, 7.6875],
+			"rotation": {"angle": -45, "axis": "z", "origin": [9.63605, 3.47444, 7.59375]},
+			"faces": {
+				"north": {"uv": [1.75, 14, 1.875, 14.125], "texture": "#3"},
+				"east": {"uv": [14, 1.75, 14.125, 1.875], "texture": "#3"},
+				"south": {"uv": [2, 14, 2.125, 14.125], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.34454, 3.24842, 7.33465],
+			"to": [8.39873, 3.95134, 10.50277],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.53125, -6.625, 0.46875]},
+			"faces": {
+				"east": {"uv": [7.75, 4.25, 8.5, 4.375], "texture": "#3"},
+				"west": {"uv": [6.25, 7.75, 7, 7.875], "texture": "#3"},
+				"up": {"uv": [0.25, 5.25, 0, 4.5], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.34454, 3.25197, 10.50277],
+			"to": [8.39873, 3.95134, 10.50277],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.37164, 3.52353, 10.15131]},
+			"faces": {
+				"east": {"uv": [7.75, 4.25, 8.5, 4.375], "rotation": 270, "texture": "#3"},
+				"south": {"uv": [0.25, 5.25, 0, 4.5], "texture": "#3"},
+				"west": {"uv": [6.25, 7.75, 7, 7.875], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.33418, 3.35567, 7.30221],
+			"to": [8.48015, 3.58352, 10.19462],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.71393, 3.57086, 11.59533]},
+			"faces": {
+				"north": {"uv": [1, 14, 1.125, 14.125], "texture": "#3"},
+				"east": {"uv": [7.75, 7.25, 8.5, 7.375], "texture": "#3"},
+				"south": {"uv": [14, 1, 14.125, 1.125], "texture": "#3"},
+				"west": {"uv": [7.75, 7.5, 8.5, 7.625], "texture": "#3"},
+				"up": {"uv": [7.875, 8.5, 7.75, 7.75], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.24684, 3.97756, 7.37806],
+			"to": [8.24684, 4.38421, 10.18621],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.53125, -6.49594, 0.9192]},
+			"faces": {
+				"east": {"uv": [0, 8, 0.75, 8.125], "texture": "#3"},
+				"south": {"uv": [0, 0, 0, 0.125], "texture": "#3"},
+				"west": {"uv": [8, 0, 8.75, 0.125], "texture": "#3"},
+				"up": {"uv": [0, 0.75, 0, 0], "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Ak MAin Body",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "group",
+							"origin": [8.72254, 4.86539, 15.3125],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gun Upper Sight",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Hand Guard",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": []
+		},
+		{
+			"name": "Gun Barrel",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						},
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						},
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "group",
+							"origin": [2.96875, 0.90625, 5.53125],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Changing Handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
+									"children": []
+								},
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
+									"children": [
+										{
+											"name": "hexadecagon",
+											"origin": [8, 8, 8],
+											"color": 0,
+											"nbt": "{}",
+											"armAnimationEnabled": false,
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": []
+		}
+	]
+}

@@ -1,0 +1,273 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "stabxmodernguns:item/mossberg500"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [7.9027, 4.75625, 17.05],
+			"to": [8.1098, 4.825, 17.18125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.00625, 5.00625, 17.1]},
+			"faces": {
+				"north": {"uv": [3.75, 13.25, 3.875, 13.375], "texture": "#1"},
+				"south": {"uv": [13.25, 3.75, 13.375, 3.875], "texture": "#1"},
+				"up": {"uv": [4.125, 13.375, 4, 13.25], "texture": "#1"},
+				"down": {"uv": [13.375, 4, 13.25, 4.125], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.8402, 4.63125, 17.05],
+			"to": [8.1723, 4.825, 17.18125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.00625, 4.975, 17.1]},
+			"faces": {
+				"north": {"uv": [7.25, 13.25, 7.375, 13.375], "texture": "#1"},
+				"east": {"uv": [13.25, 7.25, 13.375, 7.375], "texture": "#1"},
+				"south": {"uv": [7.5, 13.25, 7.625, 13.375], "texture": "#1"},
+				"west": {"uv": [13.25, 7.5, 13.375, 7.625], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.9027, 5.1875, 17.05],
+			"to": [8.1098, 5.25625, 17.18125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.00625, 5.00625, 17.1]},
+			"faces": {
+				"north": {"uv": [4.25, 13.25, 4.375, 13.375], "texture": "#1"},
+				"south": {"uv": [13.25, 4.25, 13.375, 4.375], "texture": "#1"},
+				"up": {"uv": [4.625, 13.375, 4.5, 13.25], "texture": "#1"},
+				"down": {"uv": [13.375, 4.5, 13.25, 4.625], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.9027, 5.1875, 17.05],
+			"to": [8.1098, 5.25625, 17.18125],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8.00625, 5.00625, 17.1]},
+			"faces": {
+				"north": {"uv": [4.75, 13.25, 4.875, 13.375], "texture": "#1"},
+				"south": {"uv": [13.25, 4.75, 13.375, 4.875], "texture": "#1"},
+				"up": {"uv": [5.125, 13.375, 5, 13.25], "texture": "#1"},
+				"down": {"uv": [13.375, 5, 13.25, 5.125], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.75625, 4.9027, 17.05],
+			"to": [7.825, 5.1098, 17.18125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.00625, 5.00625, 17.1]},
+			"faces": {
+				"north": {"uv": [5.25, 13.25, 5.375, 13.375], "texture": "#1"},
+				"east": {"uv": [13.25, 5.25, 13.375, 5.375], "texture": "#1"},
+				"south": {"uv": [5.5, 13.25, 5.625, 13.375], "texture": "#1"},
+				"west": {"uv": [13.25, 5.5, 13.375, 5.625], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.75625, 4.9027, 17.05],
+			"to": [7.825, 5.1098, 17.18125],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8.00625, 5.00625, 17.1]},
+			"faces": {
+				"north": {"uv": [5.75, 13.25, 5.875, 13.375], "texture": "#1"},
+				"east": {"uv": [13.25, 5.75, 13.375, 5.875], "texture": "#1"},
+				"south": {"uv": [6, 13.25, 6.125, 13.375], "texture": "#1"},
+				"west": {"uv": [13.25, 6, 13.375, 6.125], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.1875, 4.9027, 17.05],
+			"to": [8.25625, 5.1098, 17.18125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.00625, 5.00625, 17.1]},
+			"faces": {
+				"north": {"uv": [6.25, 13.25, 6.375, 13.375], "texture": "#1"},
+				"east": {"uv": [13.25, 6.25, 13.375, 6.375], "texture": "#1"},
+				"south": {"uv": [6.5, 13.25, 6.625, 13.375], "texture": "#1"},
+				"west": {"uv": [13.25, 6.5, 13.375, 6.625], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.1875, 4.9027, 17.05],
+			"to": [8.25625, 5.1098, 17.18125],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8.00625, 5.00625, 17.1]},
+			"faces": {
+				"north": {"uv": [6.75, 13.25, 6.875, 13.375], "texture": "#1"},
+				"east": {"uv": [13.25, 6.75, 13.375, 6.875], "texture": "#1"},
+				"south": {"uv": [7, 13.25, 7.125, 13.375], "texture": "#1"},
+				"west": {"uv": [13.25, 7, 13.375, 7.125], "texture": "#1"}
+			}
+		}
+	],
+
+	"groups": [
+		{
+			"name": "Mossberg 500",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger Guard",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Shell Ejector closed bolt",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Pump Action",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "group",
+					"origin": [8.00625, 17.81875, 24.1625],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Silver Pump Action",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Pump Action Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "octagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "IronSights",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

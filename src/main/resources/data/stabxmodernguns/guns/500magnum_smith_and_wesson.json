@@ -1,0 +1,48 @@
+{
+  "general": {
+    "rate": 13,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 6,
+    "reloadAmount": 1,
+    "recoilAngle": 20.0,
+    "recoilKick": 4.5,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "stabxmodernguns:50_caliber",
+    "visible": false,
+    "gravity": true,
+    "damage": 16.0,
+    "size": 0.2,
+    "speed": 25.0,
+    "life": 35
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.magnum500.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.magnum500.cock",
+    "silencedFire": "stabxmodernguns:item.magnum500.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 4.9,
+      "zOffset": -5.8
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.9,
+      "yOffset": 6.45,
+      "zOffset": -2.5
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 5.5,
+        "zOffset": -5,
+        "scale": 0.50
+      }
+    }
+  }
+}

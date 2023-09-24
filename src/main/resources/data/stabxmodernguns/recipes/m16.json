@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 50,
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:m16"
+  }
+}

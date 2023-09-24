@@ -1,0 +1,54 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 4,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 8,
+    "reloadAmount": 8,
+    "recoilKick": 0.7,
+    "recoilAngle": 6,
+    "recoilAdsReduction": 0.3,
+    "alwaysSpread": false,
+    "spread": 1
+  },
+  "projectile": {
+    "item": "stabxmodernguns:30_60_springfield_cartridge",
+    "visible": false,
+    "damage": 15,
+    "size": 0.2,
+    "speed": 50.0,
+    "life": 40
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.m1_grande.fire",
+    "cock": "stabxmodernguns:item.m1_grande.cock",
+    "ping": "stabxmodernguns:item.m1_grande.ping",
+    "reload": "cgm:item.pistol.reload",
+    "silencedFire": "stabxmodernguns:item.m1_grande.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 4,
+      "zOffset": -18
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 6.1,
+      "zOffset": 1
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 6.7,
+        "zOffset": 2,
+        "scale": 0.6
+      },
+      "barrel": {
+        "yOffset": 4.6,
+        "zOffset": -17,
+        "scale": 0.5
+      }
+    }
+  }
+}

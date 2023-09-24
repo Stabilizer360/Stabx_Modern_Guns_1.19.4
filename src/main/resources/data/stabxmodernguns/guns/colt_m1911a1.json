@@ -1,0 +1,48 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 3,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 17,
+    "reloadAmount": 5,
+    "recoilAngle": 3,
+    "recoilKick": 0.7,
+    "recoilAdsReduction": 0.4,
+    "alwaysSpread": true,
+    "spread": 1.0
+  },
+  "projectile": {
+    "item": "stabxmodernguns:45acp",
+    "visible": false,
+    "damage": 4.5,
+    "size": 0.1,
+    "speed": 20.0,
+    "life": 25
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.m1911a1.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.m1911a1.cock",
+    "silencedFire": "stabxmodernguns:item.m1911a1.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 12,
+      "zOffset": -2
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.9,
+      "yOffset": 13.5,
+      "zOffset": -6
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 11.8,
+        "zOffset": -1.5,
+        "scale": 1
+      }
+    }
+  }
+}

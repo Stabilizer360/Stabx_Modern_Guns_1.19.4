@@ -1,0 +1,47 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 30,
+    "reloadAmount": 10,
+    "recoilAngle": 1.3,
+    "recoilKick": 0.9,
+    "recoilAdsReduction": 0.9,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "stabxmodernguns:7.62x51mm_nato",
+    "visible": false,
+    "gravity": true,
+    "damage": 8.5,
+    "size": 0.2,
+    "speed": 15,
+    "life": 20
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.scar17hd.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.scar17hd.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 8.9,
+      "zOffset": 1.5
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 7.6,
+        "zOffset": 3.5,
+        "scale": 0.8
+      },
+      "underBarrel": {
+        "yOffset": 5.1,
+        "zOffset": -3,
+        "scale": 0.75
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 5,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 19,
+    "reloadAmount": 5,
+    "recoilAngle": 8,
+    "recoilKick": 2.8,
+    "recoilAdsReduction": 0.3,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "stabxmodernguns:9mm",
+    "visible": false,
+    "damage": 4.5,
+    "size": 0.1,
+    "speed": 20.0,
+    "life": 25
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.bareeta67.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.bareeta67.cock",
+    "silencedFire": "stabxmodernguns:item.bareeta67.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 5.4,
+      "zOffset": -1.5
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.9,
+      "yOffset": 6.3,
+      "zOffset": -2.9
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 5.4,
+        "zOffset": -0.1,
+        "scale": 0.4
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 120,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "count": 45,
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:dragnaov_svd"
+  }
+}

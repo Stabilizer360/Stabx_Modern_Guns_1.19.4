@@ -1,0 +1,176 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"5": "stabxmodernguns:item/serbu_super_shorty"
+	},
+	"elements": [
+		{
+			"from": [8.21875, 3.1875, 13.375],
+			"to": [8.4375, 4.40625, 17.15625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.0625, -15.0625, -0.375]},
+			"faces": {
+				"east": {"uv": [2, 2.25, 3, 2.5], "texture": "#5"},
+				"west": {"uv": [0, 2.5, 1, 2.75], "texture": "#5"}
+			}
+		},
+		{
+			"from": [8.21875, 3.34375, 14],
+			"to": [8.46875, 3.59375, 16.78125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.0625, -15.125, -0.375]},
+			"faces": {
+				"east": {"uv": [6.5, 6, 7.25, 6.125], "texture": "#5"},
+				"up": {"uv": [1.125, 7.5, 1, 6.75], "texture": "#5"}
+			}
+		},
+		{
+			"from": [8.21875, 3.23487, 13.4526],
+			"to": [8.46875, 3.48487, 14.0776],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.34375, 3.34424, 13.7651]},
+			"faces": {
+				"east": {"uv": [4.75, 9.75, 4.875, 9.875], "texture": "#5"},
+				"west": {"uv": [9.75, 4.75, 9.875, 4.875], "texture": "#5"},
+				"up": {"uv": [5.125, 9.875, 5, 9.75], "texture": "#5"}
+			}
+		},
+		{
+			"from": [8.21875, 3.92237, 13.4526],
+			"to": [8.46875, 4.01612, 14.29635],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.34375, 3.40674, 13.7651]},
+			"faces": {
+				"east": {"uv": [3.5, 8, 3.75, 8.125], "texture": "#5"},
+				"south": {"uv": [5.25, 9.75, 5.375, 9.875], "texture": "#5"},
+				"up": {"uv": [8.125, 3.75, 8, 3.5], "texture": "#5"},
+				"down": {"uv": [3.875, 8, 3.75, 8.25], "texture": "#5"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Mossberg 500",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger Guard",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Shell Ejector closed bolt",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "IronSights",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Handle",
+			"origin": [8.00625, 0.06875, 7.975],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Pulley handle",
+			"origin": [7.6625, 1.41855, 7.77678],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		}
+	]
+}

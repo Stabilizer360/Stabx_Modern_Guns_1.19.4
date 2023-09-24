@@ -1,0 +1,436 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "stabxmodernguns:item/akm_762"
+	},
+	"elements": [
+		{
+			"from": [8.4375, 3.375, 7.5],
+			"to": [9, 3.78125, 7.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.53125, -6.53125, 0.46875]},
+			"faces": {
+				"north": {"uv": [12, 3.25, 12.125, 3.375], "texture": "#1"},
+				"south": {"uv": [3.5, 12, 3.625, 12.125], "texture": "#1"},
+				"west": {"uv": [12, 3.5, 12.125, 3.625], "texture": "#1"},
+				"up": {"uv": [3.875, 12.125, 3.75, 12], "texture": "#1"},
+				"down": {"uv": [12.125, 3.75, 12, 3.875], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9, 3.375, 7.5],
+			"to": [9.625, 3.875, 7.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.53125, -6.53125, 0.46875]},
+			"faces": {
+				"north": {"uv": [4, 12, 4.125, 12.125], "texture": "#1"},
+				"east": {"uv": [12, 4, 12.125, 4.125], "texture": "#1"},
+				"south": {"uv": [4.25, 12, 4.375, 12.125], "texture": "#1"},
+				"up": {"uv": [12.125, 4.375, 12, 4.25], "texture": "#1"},
+				"down": {"uv": [4.625, 12, 4.5, 12.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9.11049, 3.48549, 7.5],
+			"to": [9.73549, 3.76674, 7.6875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.64174, -6.42076, 0.46875]},
+			"faces": {
+				"north": {"uv": [12, 4.5, 12.125, 4.625], "texture": "#1"},
+				"east": {"uv": [4.75, 12, 4.875, 12.125], "texture": "#1"},
+				"south": {"uv": [12, 4.75, 12.125, 4.875], "texture": "#1"},
+				"up": {"uv": [5.125, 12.125, 5, 12], "texture": "#1"},
+				"down": {"uv": [12.125, 5, 12, 5.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.86585, 3.75915, 7.5],
+			"to": [9.0221, 3.88415, 7.6875],
+			"rotation": {"angle": 45, "axis": "z", "origin": [9.0221, 3.8529, 7.59375]},
+			"faces": {
+				"north": {"uv": [5.25, 12, 5.375, 12.125], "texture": "#1"},
+				"south": {"uv": [12, 5.25, 12.125, 5.375], "texture": "#1"},
+				"up": {"uv": [5.625, 12.125, 5.5, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.78453, 4.03342, 7.5],
+			"to": [8.94078, 4.15842, 7.6875],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8.86265, 3.00217, 7.59375]},
+			"faces": {
+				"north": {"uv": [12, 5.5, 12.125, 5.625], "texture": "#1"},
+				"south": {"uv": [5.75, 12, 5.875, 12.125], "texture": "#1"},
+				"up": {"uv": [12.125, 5.875, 12, 5.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9.57355, 3.39631, 7.5],
+			"to": [9.69855, 3.55256, 7.6875],
+			"rotation": {"angle": -45, "axis": "z", "origin": [9.63605, 3.47444, 7.59375]},
+			"faces": {
+				"north": {"uv": [6, 12, 6.125, 12.125], "texture": "#1"},
+				"east": {"uv": [12, 6, 12.125, 6.125], "texture": "#1"},
+				"south": {"uv": [6.25, 12, 6.375, 12.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.38495, 3.22633, 7.25712],
+			"to": [8.40789, 3.9605, 10.55024],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.54041, -6.64709, 1.35997]},
+			"faces": {
+				"east": {"uv": [8, 7.5, 8.875, 7.625], "texture": "#1"},
+				"west": {"uv": [8.25, 0.75, 9.125, 0.875], "texture": "#1"},
+				"up": {"uv": [4.25, 0.875, 4, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.33352, 3.22633, 7.25712],
+			"to": [8.40789, 3.9605, 8.09256],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.76133, 3.59341, 7.67484]},
+			"faces": {
+				"north": {"uv": [12, 6.25, 12.125, 6.375], "texture": "#1"},
+				"south": {"uv": [6.5, 12, 6.625, 12.125], "texture": "#1"},
+				"up": {"uv": [10.875, 1.75, 10.75, 1.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.1229, 4.09951, 7.36471],
+			"to": [8.26887, 4.32736, 10.56962],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8.25839, 4.02594, 8.96717]},
+			"faces": {
+				"north": {"uv": [12, 6.5, 12.125, 6.625], "texture": "#1"},
+				"east": {"uv": [8.5, 6.25, 9.25, 6.375], "texture": "#1"},
+				"south": {"uv": [6.75, 12, 6.875, 12.125], "texture": "#1"},
+				"west": {"uv": [8.5, 6.5, 9.25, 6.625], "texture": "#1"},
+				"up": {"uv": [7.875, 9.25, 7.75, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.45918, 3.35567, 7.36471],
+			"to": [8.48015, 3.55227, 10.56962],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.71393, 3.57086, 11.59533]},
+			"faces": {
+				"north": {"uv": [12, 6.75, 12.125, 6.875], "texture": "#1"},
+				"east": {"uv": [8, 8.5, 8.75, 8.625], "texture": "#1"},
+				"south": {"uv": [7, 12, 7.125, 12.125], "texture": "#1"},
+				"west": {"uv": [8.5, 8, 9.25, 8.125], "texture": "#1"},
+				"up": {"uv": [0.125, 9.5, 0, 8.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.38692, 3.34934, 7.57239],
+			"to": [8.40789, 3.9605, 10.55024],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.41303, 3.65492, 9.06132]},
+			"faces": {
+				"east": {"uv": [8.5, 8.25, 9.25, 8.375], "texture": "#1"},
+				"south": {"uv": [12, 7, 12.125, 7.125], "texture": "#1"},
+				"west": {"uv": [8.75, 1, 9.5, 1.125], "texture": "#1"},
+				"up": {"uv": [1.375, 9.5, 1.25, 8.75], "texture": "#1"},
+				"down": {"uv": [8.875, 1.25, 8.75, 2], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Ak MAin Body",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "group",
+							"origin": [8.72254, 4.86539, 15.3125],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stock",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": []
+		},
+		{
+			"name": "Gun Upper Sight",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "Changing Handle",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+				}
+			]
+		},
+		{
+			"name": "Hand Guard",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Gun Barrel",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						},
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				},
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
+									"children": []
+								},
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"nbt": "{}",
+									"armAnimationEnabled": false,
+									"children": [
+										{
+											"name": "hexadecagon",
+											"origin": [8, 8, 8],
+											"color": 0,
+											"nbt": "{}",
+											"armAnimationEnabled": false,
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

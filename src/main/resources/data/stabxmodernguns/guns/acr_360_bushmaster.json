@@ -1,0 +1,60 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 30,
+    "reloadAmount": 10,
+    "recoilAngle": 1.3,
+    "recoilKick": 0.9,
+    "recoilAdsReduction": 0.9,
+    "alwaysSpread": true,
+    "spread": 0.9
+  },
+  "projectile": {
+    "item": "stabxmodernguns:5.56x45_nato",
+    "visible": false,
+    "gravity": true,
+    "damage": 8.5,
+    "size": 0.2,
+    "speed": 15,
+    "life": 20
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.acr_bushmaster.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.acr_bushmaster.cock",
+    "silencedFire": "stabxmodernguns:item.scar17.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 7.2,
+      "zOffset": -22.1
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 11,
+      "zOffset": 5.2
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 9.5,
+        "zOffset": 4.8,
+        "scale": 0.9
+
+      },
+      "barrel": {
+        "yOffset": 7.5,
+        "zOffset": -18,
+        "scale": 0.50
+      },
+      "underBarrel": {
+        "yOffset": 6.2,
+        "zOffset": -3.5,
+        "scale": 0.75
+      }
+    }
+  }
+}

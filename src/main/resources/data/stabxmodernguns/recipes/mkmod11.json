@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 20,
+      "item": "minecraft:leather"
+    },
+    {
+      "count": 2,
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:mkmod11"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 40,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:mcx_citrus_honeybadger"
+  }
+}

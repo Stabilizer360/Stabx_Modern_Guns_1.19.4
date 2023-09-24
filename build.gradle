@@ -1,0 +1,111 @@
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net/maven' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'maven-publish'
+
+version = "6.2"
+group = "com.stabilizerking.stabxmodernguns"
+archivesBaseName = "Stabx_Modern_Guns"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.19.4'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.disableRefMap', 'true'
+
+            mods {
+                stabxmodernguns {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.disableRefMap', 'true'
+
+            mods {
+                stabxmodernguns {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.disableRefMap', 'true'
+            args '--mod', 'stabxmodernguns', '--all', '--output', file('src/generated/resources/')
+
+            mods {
+                stabxmodernguns {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    maven {
+        url = "https://www.cursemaven.com"
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.19.4-45.1.2'
+
+    implementation fg.deobf('curse.maven:framework-549225:4593075')
+    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4594852')
+    runtimeOnly fg.deobf('curse.maven:configured-457570:4462894')
+    runtimeOnly fg.deobf('curse.maven:catalogue-459701:4496718')
+    runtimeOnly fg.deobf('curse.maven:jei-238222:4592504')
+}
+
+ jar {
+    manifest {
+        attributes([
+            "Specification-Title": "Stabx Modern Guns",
+            "Specification-Vendor": "Stabilizer King Dynasty",
+            "Specification-Version": "1",
+            "Implementation-Title": project.name,
+            "Implementation-Version": project.jar.archiveVersion,
+            "Implementation-Vendor" :"Stabilizer King Dynasty",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar') 
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}

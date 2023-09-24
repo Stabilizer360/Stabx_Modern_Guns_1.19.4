@@ -1,0 +1,60 @@
+{
+	"general": {
+		"auto": true,
+		"rate": 4,
+		"gripType": "cgm:two_handed",
+		"maxAmmo": 8,
+		"reloadAmount": 2,
+		"recoilAngle": 1.8,
+		"recoilKick": 1.5,
+		"recoilAdsReduction": 0.5,
+		"projectileAmount": 18,
+		"alwaysSpread": true,
+		"spread": 18.0
+	},
+	"projectile": {
+		"item": "stabxmodernguns:12gauge_buckshot_slug_shell_360",
+		"visible": false,
+		"gravity": true,
+		"damage": 28,
+		"size": 0.2,
+		"speed": 35.0,
+		"life": 25
+	},
+	"sounds": {
+		"fire": "stabxmodernguns:item.aa12ux.fire",
+		"reload": "cgm:item.pistol.reload",
+		"cock": "stabxmodernguns:item.aa12ux.cock",
+		"silencedFire": "stabxmodernguns:item.aa12ux.suppressed"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 4.9,
+			"zOffset": -19
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.6,
+			"yOffset": 10,
+			"zOffset": 4
+		},
+		"attachments": {
+			"scope": {
+				"yOffset": 8.6,
+				"zOffset": 4.5,
+				"scale": 1.2
+			},
+			"barrel": {
+				"yOffset": 5.3,
+				"zOffset": -15.6,
+				"scale": 0.75
+			},
+			"underBarrel": {
+				"yOffset": 3.8,
+				"zOffset": -6,
+				"scale": 0.75
+			}
+		}
+	}
+}

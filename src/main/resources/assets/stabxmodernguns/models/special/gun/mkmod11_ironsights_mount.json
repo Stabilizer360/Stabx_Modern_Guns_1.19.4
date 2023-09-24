@@ -1,0 +1,152 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"2": "stabxmodernguns:item/usu",
+		"particle": "stabxmodernguns:item/mkmod11_main"
+	},
+	"elements": [
+		{
+			"from": [7.90694, 0.99148, 7.81111],
+			"to": [7.95972, 1.12481, 7.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.93333, -7.86061, -2.13333]},
+			"faces": {
+				"north": {"uv": [6.75, 4.625, 7, 4.75], "texture": "#2"},
+				"east": {"uv": [8.125, 5.75, 8.25, 5.875], "texture": "#2"},
+				"south": {"uv": [4.75, 6.75, 5, 6.875], "texture": "#2"},
+				"west": {"uv": [5.875, 8.125, 6, 8.25], "texture": "#2"},
+				"up": {"uv": [7, 4.875, 6.75, 4.75], "texture": "#2"},
+				"down": {"uv": [7, 4.875, 6.75, 5], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "mk11",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "barrel",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "barrel body 2",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "barrel body",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "Main Body",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "group",
+							"origin": [6.93333, 1.86667, -2.13333],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						},
+						{
+							"name": "group",
+							"origin": [0, 0, 0],
+							"color": 0,
+							"nbt": "{}",
+							"children": [
+								{
+									"name": "group",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"nbt": "{}",
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "Main Body",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": [
+								{
+									"name": "group",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"nbt": "{}",
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "trigger",
+					"origin": [6.93333, 2.36667, -0.50833],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "rail",
+					"origin": [6.93333, 1.86667, -2.13333],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						0,
+						{
+							"name": "group",
+							"origin": [0, 0, 0],
+							"color": 0,
+							"nbt": "{}",
+							"children": [
+								{
+									"name": "group",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"nbt": "{}",
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "magazine",
+					"origin": [7.95, 2.51389, 5.14722],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "handle",
+					"origin": [6.93333, 1.86667, -2.13333],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		}
+	]
+}

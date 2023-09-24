@@ -1,0 +1,46 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 38,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 5,
+    "reloadAmount": 1,
+    "recoilKick": 2.4,
+    "recoilAngle": 18,
+    "alwaysSpread": false,
+    "spread": 1
+  },
+  "projectile": {
+    "item": "stabxmodernguns:7.7x58mm",
+    "visible": false,
+    "damage": 20,
+    "size": 0.2,
+    "speed": 60,
+    "life": 150
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.arisaka_type99.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.arisaka_type99.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 4,
+      "zOffset": -11.5
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 5,
+      "zOffset": -1.7
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 5.1,
+        "zOffset": 5.3,
+        "scale": 0.4
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 3,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 8,
+    "reloadAmount": 4,
+    "recoilKick": 0.8,
+    "recoilAngle": 3,
+    "recoilAdsReduction": 0.4,
+    "alwaysSpread": false,
+    "spread": 1
+  },
+  "projectile": {
+    "item": "stabxmodernguns:30_60_springfield_cartridge",
+    "visible": false,
+    "damage": 15,
+    "size": 0.2,
+    "speed": 50.0,
+    "life": 40
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.m1_garand_remake.fire",
+    "cock": "stabxmodernguns:item.m1_garand_remake.cock",
+    "ping": "stabxmodernguns:item.m1_garand_remake.ping",
+    "reload": "cgm:item.pistol.reload",
+    "silencedFire": "stabxmodernguns:item.m1_garand_remake.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 6.4,
+      "zOffset": -25
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 7.5,
+      "zOffset": 3
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 8.1,
+        "zOffset": 4.5,
+        "scale": 0.7
+      },
+      "barrel": {
+        "yOffset": 6.2,
+        "zOffset": -23,
+        "scale": 0.5
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 24,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 5,
+    "reloadAmount": 1,
+    "recoilKick": 0.6,
+    "recoilAngle": 14,
+    "alwaysSpread": false,
+    "spread": 0.2
+  },
+  "projectile": {
+    "item": "stabxmodernguns:7.92x57mm",
+    "visible": false,
+    "damage": 20,
+    "size": 0.2,
+    "speed": 60.5,
+    "life": 100
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.kar98k.fire",
+    "reload": "stabxmodernguns:item.kar98k.reload",
+    "cock": "stabxmodernguns:item.kar98k.cock",
+    "silencedFire": "stabxmodernguns:item.kar98k.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 3.5,
+      "zOffset": -20.5
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 4,
+      "zOffset": 1.8
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 4.1,
+        "zOffset": 4.3,
+        "scale": 0.7
+      },
+      "barrel": {
+        "yOffset": 3.1,
+        "zOffset": -22.7,
+        "scale": 0.5
+      }
+    }
+  }
+}

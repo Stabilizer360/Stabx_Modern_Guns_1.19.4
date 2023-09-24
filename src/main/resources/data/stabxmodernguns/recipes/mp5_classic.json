@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 30,
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:mp5_classic"
+  }
+}

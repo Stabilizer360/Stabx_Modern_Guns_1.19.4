@@ -1,0 +1,53 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 3,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 8,
+    "reloadAmount": 4,
+    "recoilKick": 0.8,
+    "recoilAngle": 3,
+    "recoilAdsReduction": 0.4,
+    "alwaysSpread": false,
+    "spread": 1
+  },
+  "projectile": {
+    "item": "stabxmodernguns:7.62x51mm_nato",
+    "visible": false,
+    "damage": 15,
+    "size": 0.2,
+    "speed": 50.0,
+    "life": 40
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.m14.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.m14.cock",
+    "silencedFire": "stabxmodernguns:item.m14.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 6.4,
+      "zOffset": -21
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 7.5,
+      "zOffset": 3
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 8,
+        "zOffset": 4.5,
+        "scale": 0.6
+      },
+      "barrel": {
+        "yOffset": 6.2,
+        "zOffset": -19,
+        "scale": 0.5
+      }
+    }
+  }
+}

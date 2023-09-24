@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 88,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:green_dye"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:aug556"
+  }
+}

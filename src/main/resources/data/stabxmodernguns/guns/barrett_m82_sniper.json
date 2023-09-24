@@ -1,0 +1,52 @@
+{
+  "general": {
+    "rate": 15,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 10,
+    "reloadAmount": 2,
+    "recoilAngle": 25,
+    "recoilKick": 4.5,
+    "recoilAdsReduction": 0.8,
+    "alwaysSpread": false,
+    "spread": 0.1
+  },
+  "projectile": {
+    "item": "stabxmodernguns:50bmg",
+    "visible": false,
+    "gravity": true,
+    "damage": 70,
+    "size": 2.0,
+    "speed": 120,
+    "life": 130
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.m82.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.m82.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 4.4,
+      "zOffset": -20.75
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 7.7,
+      "zOffset": 6
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 5.95,
+        "zOffset": 4.5,
+	 "scale" : 0.8
+      },
+      "underBarrel": {
+        "yOffset": 4,
+        "zOffset": -3,
+        "scale" : 0.50
+      }
+    }
+  }
+}

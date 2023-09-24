@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 150,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:black_dye"
+    },
+    {
+      "count": 6,
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:rpk"
+  }
+}

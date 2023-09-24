@@ -1,0 +1,48 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 32,
+    "reloadAmount":10,
+    "recoilAngle": 1,
+    "recoilKick": 0.5,
+    "recoilAdsReduction": 0.9,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "stabxmodernguns:9mm",
+    "visible": false,
+    "damage": 5.5,
+    "size": 0.1,
+    "speed": 20.0,
+    "life": 25
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.tec9.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "stabxmodernguns:item.tec9.cock",
+    "silencedFire": "stabxmodernguns:item.tec9.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 8.9,
+      "zOffset": -10.3
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 10.6,
+      "zOffset": -3
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 9,
+        "zOffset": -7.3,
+        "scale": 0.70
+      }
+    }
+  }
+}

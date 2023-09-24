@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 350,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 30,
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "count": 40,
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:barrett_m82_sniper"
+  }
+}

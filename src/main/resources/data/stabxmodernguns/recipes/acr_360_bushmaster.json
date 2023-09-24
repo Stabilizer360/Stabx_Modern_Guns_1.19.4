@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 50,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:black_dye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:gray_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:acr_360_bushmaster"
+  }
+}

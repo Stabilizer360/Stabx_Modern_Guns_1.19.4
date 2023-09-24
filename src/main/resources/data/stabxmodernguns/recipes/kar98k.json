@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 22,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 5,
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:kar98k"
+  }
+}

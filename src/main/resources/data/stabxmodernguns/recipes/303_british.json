@@ -1,0 +1,21 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 6,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "count": 50,
+    "item": "stabxmodernguns:303_british"
+  }
+}

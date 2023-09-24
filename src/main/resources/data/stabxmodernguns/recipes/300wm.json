@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 4,
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 4,
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {
+    "count": 64,
+    "item": "stabxmodernguns:300wm"
+  }
+}

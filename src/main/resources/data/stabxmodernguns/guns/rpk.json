@@ -1,0 +1,59 @@
+{
+	"general": {
+		"auto": true,
+		"rate": 2,
+		"gripType": "cgm:two_handed",
+		"maxAmmo": 45,
+		"reloadAmount": 10,
+		"recoilAngle": 1.1,
+		"recoilKick": 0.8,
+		"recoilAdsReduction": 0.6,
+		"alwaysSpread": true,
+		"spread": 1
+	},
+	"projectile": {
+		"item": "stabxmodernguns:7.62mm",
+		"visible": false,
+		"gravity": true,
+		"damage": 8,
+		"size": 0.2,
+		"speed": 25,
+		"life": 35
+	},
+	"sounds": {
+		"fire": "stabxmodernguns:item.rpk.fire",
+		"reload": "cgm:item.pistol.reload",
+		"cock": "stabxmodernguns:item.rpk.cock",
+		"silencedFire": "stabxmodernguns:item.rpk.suppressed"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 2.5,
+			"zOffset": -23.3
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.8,
+			"yOffset": 5,
+			"zOffset": 2.35
+		},
+		"attachments": {
+			"scope": {
+				"yOffset": 4.9,
+				"zOffset": 4,
+				"scale": 0.7
+			},
+			"barrel": {
+				"yOffset": 2.8,
+				"zOffset": -21,
+				"scale": 0.5
+			},
+			"underBarrel": {
+				"yOffset": 2.3,
+				"zOffset": -4.5,
+				"scale": 0.7
+			}
+		}
+	}
+}

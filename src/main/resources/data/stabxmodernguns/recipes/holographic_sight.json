@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 25,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:red_dye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:light_gray_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:holographic_sight"
+  }
+}

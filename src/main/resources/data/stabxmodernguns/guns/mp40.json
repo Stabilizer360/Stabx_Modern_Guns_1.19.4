@@ -1,0 +1,41 @@
+{
+	"general": {
+		"auto": true,
+		"rate": 2,
+		"gripType": "cgm:two_handed",
+		"maxAmmo": 30,
+		"reloadAmount": 10,
+		"recoilAngle": 1,
+		"recoilKick": 0.8,
+		"recoilAdsReduction": 0.5,
+		"alwaysSpread": true,
+		"spread": 2.0
+	},
+	"projectile": {
+		"item": "stabxmodernguns:9mm",
+		"visible": false,
+		"gravity": true,
+		"damage": 4.2,
+		"size": 0.2,
+		"speed": 60.0,
+		"life": 65
+	},
+	"sounds": {
+		"fire": "stabxmodernguns:item.mp40.fire",
+		"reload": "cgm:item.pistol.reload",
+		"cock": "stabxmodernguns:item.mp40.cock"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 8.5,
+			"zOffset": -15.4
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.8,
+			"yOffset": 9.9,
+			"zOffset": 2
+		}
+	}
+}

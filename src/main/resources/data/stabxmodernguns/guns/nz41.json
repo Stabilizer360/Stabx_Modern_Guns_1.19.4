@@ -1,0 +1,54 @@
+{
+	"general": {
+		"auto": true,
+		"rate": 2,
+		"gripType": "cgm:two_handed",
+		"maxAmmo": 30,
+		"reloadAmount": 10,
+		"recoilAngle": 1.1,
+		"recoilKick": 0.8,
+		"recoilAdsReduction": 0.6,
+		"alwaysSpread": true,
+		"spread": 1
+	},
+	"projectile": {
+		"item": "stabxmodernguns:303_british",
+		"visible": false,
+		"gravity": true,
+		"damage": 8,
+		"size": 0.2,
+		"speed": 25,
+		"life": 35
+	},
+	"sounds": {
+		"fire": "stabxmodernguns:item.nz41.fire",
+		"reload": "cgm:item.pistol.reload",
+		"cock": "stabxmodernguns:item.nz41.cock",
+		"silencedFire": "stabxmodernguns:item.nz41.suppressed"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 5.1,
+			"zOffset": -19.3
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.8,
+			"yOffset": 6.4,
+			"zOffset": -0.01
+		},
+		"attachments": {
+			"scope": {
+				"yOffset": 6.6,
+				"zOffset": 6.5,
+				"scale": 0.7
+			},
+			"barrel": {
+				"yOffset": 5.2,
+				"zOffset": -17.3,
+				"scale": 0.5
+			}
+		}
+	}
+}

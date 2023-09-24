@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "tag": "forge:nuggets/iron"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:za_mini_red_dot_sight"
+  }
+}

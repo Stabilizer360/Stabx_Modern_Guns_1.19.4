@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 12,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:simple_sniper_scope"
+  }
+}

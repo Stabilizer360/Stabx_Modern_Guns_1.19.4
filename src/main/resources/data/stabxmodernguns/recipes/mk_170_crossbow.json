@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 56,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 4,
+      "tag": "forge:nuggets/gold"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:light_gray_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:mk_170_crossbow"
+  }
+}
