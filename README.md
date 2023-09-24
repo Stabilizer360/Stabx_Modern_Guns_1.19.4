@@ -45,6 +45,7 @@ If you have any Doubts , and want to contact me join my [Stabx Community Discord
 
 # Other Version Repositories
 
-###  [1.19.3](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.3)
-###  [1.19.2](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.2)
-###  [1.18.2](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.18.2)
+###  [Stabx Modern Guns 1.19.4](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.4)
+###  [Stabx Modern Guns 1.19.3](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.3)
+###  [Stabx Modern Guns 1.19.2](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.2)
+###  [Stabx Modern Guns 1.18.2](https://github.com/Stabilizer360/Stabx_Modern_Guns_1.18.2)
