@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
-version = "6.2"
+version = "6.3"
 group = "com.stabilizerking.stabxmodernguns"
 archivesBaseName = "Stabx_Modern_Guns"
 
@@ -74,8 +74,8 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.4-45.1.2'
 
-    implementation fg.deobf('curse.maven:framework-549225:4593075')
-    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4594852')
+    implementation fg.deobf('curse.maven:framework-549225:4718249')
+    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4718584')
     runtimeOnly fg.deobf('curse.maven:configured-457570:4462894')
     runtimeOnly fg.deobf('curse.maven:catalogue-459701:4496718')
     runtimeOnly fg.deobf('curse.maven:jei-238222:4592504')
