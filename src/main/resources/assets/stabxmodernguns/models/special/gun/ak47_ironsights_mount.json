@@ -646,14 +646,12 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "octagon",
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				}
 			]
@@ -663,7 +661,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": []
 		},
 		{
@@ -671,28 +668,24 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						{
 							"name": "hexadecagon",
 							"origin": [8, 8, 8],
 							"color": 0,
 							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [
 								{
 									"name": "hexadecagon",
 									"origin": [8, 8, 8],
 									"color": 0,
 									"nbt": "{}",
-									"armAnimationEnabled": false,
 									"children": []
 								}
 							]
@@ -704,7 +697,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				}
 			]
@@ -714,14 +706,12 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				},
 				{
@@ -729,14 +719,12 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						{
 							"name": "hexadecagon",
 							"origin": [8, 8, 8],
 							"color": 0,
 							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": []
 						}
 					]
@@ -746,7 +734,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				},
 				{
@@ -754,7 +741,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				},
 				{
@@ -762,7 +748,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				}
 			]
@@ -772,28 +757,24 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						{
 							"name": "hexadecagon",
 							"origin": [8, 8, 8],
 							"color": 0,
 							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [
 								{
 									"name": "hexadecagon",
 									"origin": [8, 8, 8],
 									"color": 0,
 									"nbt": "{}",
-									"armAnimationEnabled": false,
 									"children": []
 								}
 							]
@@ -803,7 +784,6 @@
 							"origin": [8, 8, 8],
 							"color": 0,
 							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": []
 						},
 						{
@@ -811,7 +791,6 @@
 							"origin": [8, 8, 8],
 							"color": 0,
 							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": []
 						}
 					]
@@ -821,7 +800,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				},
 				{
@@ -829,7 +807,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				},
 				{
@@ -837,7 +814,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				},
 				{
@@ -845,7 +821,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				}
 			]
@@ -855,14 +830,12 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": []
 				}
 			]
@@ -872,7 +845,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": []
 		},
 		{
@@ -880,21 +852,18 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						{
 							"name": "hexadecagon",
 							"origin": [8, 8, 8],
 							"color": 0,
 							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": []
 						}
 					]
@@ -906,7 +875,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				0,
 				1,

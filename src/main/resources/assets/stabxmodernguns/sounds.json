@@ -581,6 +581,16 @@
       }
     ]
   },
+
+  "item.acr_bushmaster.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/acr_bushmaster_suppressed"
+      }
+    ]
+  },
+
   "item.akm762.fire": {
     "subtitle": "subtitle.stabxmodernguns.fire",
     "sounds": [
@@ -1070,7 +1080,7 @@
     "subtitle": "subtitle.stabxmodernguns.cock",
     "sounds": [
       {
-        "name": "stabxmodernguns:item/hkusp45_cock"
+        "name": "stabxmodernguns:item/nz41_cock"
       }
     ]
   },
@@ -1345,6 +1355,60 @@
     "sounds": [
       {
         "name": "stabxmodernguns:item/svd_suppressed"
+      }
+    ]
+  },
+
+  "item.ak_103.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak_103_fire"
+      }
+    ]
+  },
+  "item.ak_103.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak_103_cock"
+      }
+    ]
+  },
+
+  "item.ak_103.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak_103_suppressed"
+      }
+    ]
+  },
+
+
+
+  "item.az67.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/az67_fire"
+      }
+    ]
+  },
+  "item.az67.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/az67_cock"
+      }
+    ]
+  },
+
+  "item.az67.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/az67_suppressed"
       }
     ]
   }

@@ -1,0 +1,59 @@
+{
+	"general": {
+		"auto": true,
+		"rate": 2,
+		"gripType": "cgm:two_handed",
+		"maxAmmo": 30,
+		"reloadAmount": 10,
+		"recoilAngle": 1.5,
+		"recoilKick": 1.1,
+		"recoilAdsReduction": 0.5,
+		"alwaysSpread": true,
+		"spread": 1.2
+	},
+	"projectile": {
+		"item": "stabxmodernguns:5.56x45_nato",
+		"visible": false,
+		"gravity": true,
+		"damage": 10,
+		"size": 0.2,
+		"speed": 35,
+		"life": 120
+	},
+	"sounds": {
+		"fire": "stabxmodernguns:item.az67.fire",
+		"reload": "cgm:item.pistol.reload",
+		"cock": "stabxmodernguns:item.az67.cock",
+		"silencedFire": "stabxmodernguns:item.az67.suppressed"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 7.9,
+			"zOffset": -12.3
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.8,
+			"yOffset": 10.3,
+			"zOffset": 2.35
+		},
+		"attachments": {
+			"scope": {
+				"yOffset": 8.5,
+				"zOffset": 6.5,
+				"scale": 0.8
+			},
+			"barrel": {
+				"yOffset": 7.8,
+				"zOffset": -11,
+				"scale": 0.5
+			},
+			"underBarrel": {
+				"yOffset": 7.1,
+				"zOffset": -3.0,
+				"scale": 0.7
+			}
+		}
+	}
+}

@@ -43,6 +43,10 @@ public enum SpecialModels {
     AK_47_IRONSIGHTS_MOUNT("gun/ak47_ironsights_mount"),
     AKM_762("gun/akm_762"),
     AKM_762_CHARGING_HANDLE("gun/akm_762_charging_handle"),
+
+    AK_103("gun/ak_103"),
+    AK_103_CHARGING_HANDLE("gun/ak_103_charging_handle"),
+
     AKS_74_UX("gun/aks74ux"),
     AKS74UX_CHARGING_HANDLE("gun/aks74ux_charging_handle"),
     AKS74UX_IRONSIGHTS("gun/aks74ux_ironsights"),
@@ -51,9 +55,11 @@ public enum SpecialModels {
     M16("gun/m16"),
     M16_IRONSIGHTS("gun/m16_iron_sights"),
     M16_IRONSIGHTS_MOUNT("gun/m16_ironsights_mount"),
+
     M4A1("gun/m4a1"),
     M4A1_IRONSIGHTS("gun/m4a1_ironsights"),
     M4A1_IRONSIGHTS_MOUNT("gun/m4a1_ironsights_mount"),
+
     ACR_BUSHMASTER("gun/acr_360_bushmaster"),
     ACR_BUSHMASTER_IRONSIGHTS("gun/acr_360_bushmaster_iron_sights"),
     ACR_BUSHMASTER_IRONSIGHTS_MOUNT("gun/acr_360_bushmaster_iron_sights_mount"),
@@ -217,7 +223,11 @@ public enum SpecialModels {
     DRAGNAOV_SVD("gun/dragnaov_svd"),
     DRAGNAOV_SVD_CHARGING_HANDLE("gun/dragnaov_svd_charging_handle"),
     DRAGNAOV_SVD_IRONSIGHTS("gun/dragnaov_svd_ironsights"),
-    DRAGNAOV_SVD_IRONSIGHTS_MOUNT("gun/dragnaov_svd_ironsights_mount");
+    DRAGNAOV_SVD_IRONSIGHTS_MOUNT("gun/dragnaov_svd_ironsights_mount"),
+
+    AZ67("gun/az67"),
+    AZ67_IRONSIGHTS("gun/az67_ironsights"),
+    AZ67_IRONSIGHTS_MOUNT("gun/az67_ironsights_mount");
 
 
     private final ResourceLocation modelLoc;

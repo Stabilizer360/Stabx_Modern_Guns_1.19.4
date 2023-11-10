@@ -52,19 +52,28 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> MP5_CLASSIC_FIRE = register("item.mp5_classic.fire");
     public static final RegistryObject<SoundEvent> MP5_CLASSIC_COCK = register("item.mp5_classic.cock");
     public static final RegistryObject<SoundEvent> MP5_CLASSIC_SUPPRESSED = register("item.mp5_classic.suppressed");
+
+
     public static final RegistryObject<SoundEvent> STRIKER45_FIRE = register("item.striker45.fire");
     public static final RegistryObject<SoundEvent> STRIKER45_COCK = register("item.striker45.cock");
     public static final RegistryObject<SoundEvent> STRIKER45_SUPPRESSED = register("item.striker45.suppressed");
+
+
     public static final RegistryObject<SoundEvent> MP40_FIRE = register("item.mp40.fire");
     public static final RegistryObject<SoundEvent> MP40_COCK = register("item.mp40.cock");
     public static final RegistryObject<SoundEvent> TEC9_FIRE = register("item.tec9.fire");
     public static final RegistryObject<SoundEvent> TEC9_COCK = register("item.tec9.cock");
     public static final RegistryObject<SoundEvent> TEC9_SUPPRESSED = register("item.tec9.suppressed");
 
+
     public static final RegistryObject<SoundEvent> MP7_FIRE = register("item.zxr_mp7.fire");
     public static final RegistryObject<SoundEvent> MP7_COCK = register("item.zxr_mp7.cock");
     public static final RegistryObject<SoundEvent> Mp7_SUPPRESSED = register("item.zxr_mp7.suppressed");
 
+
+    public static final RegistryObject<SoundEvent> VECTOR45_FIRE = register("item.vector45.fire");
+    public static final RegistryObject<SoundEvent> VECTOR45_COCK = register("item.vector45.cock");
+    public static final RegistryObject<SoundEvent> VECTOR45_SUPPRESSED = register("item.vector45.suppressed");
 
 
     //--------------------------------------------------------Assault Rifles Gun Sounds-----------------------------------------------------------------------
@@ -124,8 +133,11 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> G36C_HD_FIRE = register("item.g36chd.fire");
     public static final RegistryObject<SoundEvent> G36C_HD_COCK = register("item.g36chd.cock");
     public static final RegistryObject<SoundEvent> G36C_HD_SUPPRESSED = register("item.g36chd.suppressed");
+
+
     public static final RegistryObject<SoundEvent> ACR_BUSHMASTER_FIRE = register("item.acr_bushmaster.fire");
     public static final RegistryObject<SoundEvent> ACR_BUSHMASTER_COCK = register("item.acr_bushmaster.cock");
+    public static final RegistryObject<SoundEvent> ACR_BUSHMASTER_SUPPRESSED = register("item.acr_bushmaster.suppressed");
 
     public static final RegistryObject<SoundEvent> AUG556_FIRE = register("item.aug556.fire");
     public static final RegistryObject<SoundEvent> AUG556_COCK = register("item.aug556.cock");
@@ -147,9 +159,14 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> GK57_COCK = register("item.gk57.cock");
     public static final RegistryObject<SoundEvent> GK57_SUPPRESSED = register("item.gk57.suppressed");
 
-    public static final RegistryObject<SoundEvent> VECTOR45_FIRE = register("item.vector45.fire");
-    public static final RegistryObject<SoundEvent> VECTOR45_COCK = register("item.vector45.cock");
-    public static final RegistryObject<SoundEvent> VECTOR45_SUPPRESSED = register("item.vector45.suppressed");
+    public static final RegistryObject<SoundEvent> AK103_FIRE = register("item.ak_103.fire");
+    public static final RegistryObject<SoundEvent> AK103_COCK = register("item.ak_103.cock");
+    public static final RegistryObject<SoundEvent> AK103_SUPPRESSED = register("item.ak_103.suppressed");
+
+    public static final RegistryObject<SoundEvent> AZ67_FIRE = register("item.az67.fire");
+    public static final RegistryObject<SoundEvent> AZ67_COCK = register("item.az67.cock");
+    public static final RegistryObject<SoundEvent> AZ67_SUPPRESSED = register("item.az67.suppressed");
+
 
     //-----------------------------------------------------Light Machine gun sounds--------------------------------------------------------------------------
 
@@ -269,7 +286,6 @@ public class ModSoundRegisteration {
 
 
     //------------------------------------------------Misc Other Sounds---------------------------------------------------------------------------------------
-
 
 
     public static final RegistryObject<SoundEvent> MK_170_CROSSBOW_FIRE = register("item.mk_170_crossbow.fire");

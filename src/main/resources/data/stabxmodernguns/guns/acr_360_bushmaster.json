@@ -24,7 +24,7 @@
     "fire": "stabxmodernguns:item.acr_bushmaster.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "stabxmodernguns:item.acr_bushmaster.cock",
-    "silencedFire": "stabxmodernguns:item.scar17.suppressed"
+    "silencedFire": "stabxmodernguns:item.acr_bushmaster.suppressed"
   },
   "display": {
     "flash": {

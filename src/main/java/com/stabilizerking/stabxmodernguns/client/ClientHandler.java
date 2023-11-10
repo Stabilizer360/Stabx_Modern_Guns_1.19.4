@@ -60,6 +60,8 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.VECTOR45.get(), new KrissVector45Model());
         ModelOverrides.register(ModItemRegisteration.STG44.get(), new Stg44Model());
         ModelOverrides.register(ModItemRegisteration.DRAGNAOV_SVD.get(), new DragnaovSVDModel());
+        ModelOverrides.register(ModItemRegisteration.AK_103.get(), new AK103Model());
+        ModelOverrides.register(ModItemRegisteration.AZ67.get(), new Az67Model());
 
     }
 }

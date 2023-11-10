@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[45,)"
 license="GNU General Public License v3.0"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/stabx-modern-guns"
 
 [[mods]]
     modId="stabxmodernguns"
-    version="6.3"
+    version="7.0"
     displayName="Stabx Modern Guns"
     authors="Stabilizer King"
-    credits="Stabx Community Big thanks to Comrede Micky for making the gk57"
+    credits="Stabilizer king and big thanks to Stabx modding discord members"
     description="Addon for Mr.Crayfish's gun mod adding High Quality and Realistic guns with better sounds"
+    updateJSONURL="https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.4/blob/master/update.json"
 
 [[dependencies.stabxmodernguns]]
     modId="forge"
@@ -34,7 +36,6 @@ license="GNU General Public License v3.0"
     versionRange="[0.6.16,)"
     ordering="NONE"
     side="BOTH"
-
 
 [modproperties.stabxmodernguns]
     catalogueItemIcon="stabxmodernguns:m4"

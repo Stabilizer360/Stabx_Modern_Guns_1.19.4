@@ -98,6 +98,8 @@ public class StabxModernGuns {
             gunItems.add(ModItemRegisteration.MCX_HONEYBADGER.get());
             gunItems.add(ModItemRegisteration.MODERN_GK57.get());
             gunItems.add(ModItemRegisteration.NZ41.get());
+            gunItems.add(ModItemRegisteration.AK_103.get());
+            gunItems.add(ModItemRegisteration.AZ67.get());
 
 
             for (GunItem gun : gunItems) {

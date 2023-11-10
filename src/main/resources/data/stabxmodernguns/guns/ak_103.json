@@ -21,10 +21,10 @@
 		"life": 35
 	},
 	"sounds": {
-		"fire": "stabxmodernguns:item.akm762.fire",
+		"fire": "stabxmodernguns:item.ak_103.fire",
 		"reload": "cgm:item.pistol.reload",
-		"cock": "stabxmodernguns:item.akm762.cock",
-		"silencedFire": "stabxmodernguns:item.akm762.suppressed"
+		"cock": "stabxmodernguns:item.ak_103.cock",
+		"silencedFire": "stabxmodernguns:item.ak_103.suppressed"
 	},
 	"display": {
 		"flash": {

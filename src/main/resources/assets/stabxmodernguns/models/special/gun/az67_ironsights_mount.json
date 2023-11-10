@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"3": "stabxmodernguns:item/az67"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [8.00699, 6.58125, 12.425],
+			"to": [8.00551, 6.68125, 12.59771],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.00625, 10.31875, 15.1625]},
+			"faces": {
+				"north": {"uv": [10.25, 5.5, 10.5, 5.75], "texture": "#3"},
+				"south": {"uv": [5.75, 10.25, 6, 10.5], "texture": "#3"},
+				"up": {"uv": [10.5, 6, 10.25, 5.75], "texture": "#3"},
+				"down": {"uv": [6.25, 10.25, 6, 10.5], "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		}
+	]
+}
