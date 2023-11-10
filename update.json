@@ -1,16 +1,8 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/stabx-modern-guns",
-  "1.19.4": {
-    "7.0": "Improved and fixed a Lot of bugs and and Remastared Aks and added 2 new guns",
-    ...
-  },
-  ...
   "promos": {
-    "1.16.5-latest": "5.4",
-    "1.18.2-latest": "7.0",
-    "1.19.2-latest": "7.0",
-    "1.19.3-latest": "7.0",
-    "1.19.4-latest": "7.0"
-    ...
+
+    "1.19.4-latest": "7.0",
+    "1.19.2-recommended": "7.0"
   }
 }
