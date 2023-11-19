@@ -100,7 +100,7 @@ public class StabxModernGuns {
             gunItems.add(ModItemRegisteration.NZ41.get());
             gunItems.add(ModItemRegisteration.AK_103.get());
             gunItems.add(ModItemRegisteration.AZ67.get());
-
+            gunItems.add(ModItemRegisteration.RATNIK19.get());
 
             for (GunItem gun : gunItems) {
                 event.accept(StabxModUtils.gunWithoutBar(gun));

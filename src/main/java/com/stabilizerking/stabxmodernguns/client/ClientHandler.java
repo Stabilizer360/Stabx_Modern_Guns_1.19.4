@@ -62,6 +62,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.DRAGNAOV_SVD.get(), new DragnaovSVDModel());
         ModelOverrides.register(ModItemRegisteration.AK_103.get(), new AK103Model());
         ModelOverrides.register(ModItemRegisteration.AZ67.get(), new Az67Model());
+        ModelOverrides.register(ModItemRegisteration.RATNIK19.get(), new Ratnik19Model());
 
     }
 }

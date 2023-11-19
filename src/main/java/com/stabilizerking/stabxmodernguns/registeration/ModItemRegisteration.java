@@ -123,6 +123,10 @@ public class ModItemRegisteration {
     public static final RegistryObject<GunItem> AZ67 = ITEMS.register("az67",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<GunItem> RATNIK19 = ITEMS.register("ratnik19",
+            () -> new GunItem(new Item.Properties().stacksTo(1)));
+
+
 
     //-----------------------------------------------------ShotGuns ---------------------------------------------------------------//
 

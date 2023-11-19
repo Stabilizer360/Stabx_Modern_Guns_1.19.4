@@ -7548,7 +7548,7 @@
 		},
 		{
 			"from": [6.50877, 11.25801, 0.13555],
-			"to": [6.94627, 11.44551, 7.63555],
+			"to": [6.72752, 11.44551, 7.63555],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [7.22752, 11.35176, 5.0418]},
 			"faces": {
 				"north": {"uv": [11.375, 3.875, 11.4375, 3.9375], "texture": "#8"},
@@ -8996,7 +8996,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				0,
 				1,
@@ -9234,7 +9233,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				229,
 				230,
@@ -9257,7 +9255,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
 				}
 			]
@@ -9267,7 +9264,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				261,
 				262,
@@ -9290,7 +9286,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						277,
 						278,
@@ -9313,7 +9308,6 @@
 							"origin": [8, 8, 8],
 							"color": 0,
 							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314]
 						}
 					]
@@ -9325,7 +9319,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				315,
 				316,
@@ -9348,7 +9341,6 @@
 					"origin": [8, 8, 8],
 					"color": 0,
 					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346]
 				}
 			]
@@ -9358,7 +9350,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [347, 348, 349, 350, 351, 352, 353, 354]
 		},
 		{
@@ -9366,7 +9357,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381]
 		},
 		{
@@ -9374,7 +9364,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408]
 		},
 		{
@@ -9382,7 +9371,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424]
 		},
 		{
@@ -9390,7 +9378,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444]
 		},
 		{
@@ -9398,7 +9385,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [445, 446, 447, 448, 449, 450, 451, 452]
 		},
 		{
@@ -9406,7 +9392,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [453, 454, 455, 456]
 		},
 		{
@@ -9414,7 +9399,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [457, 458, 459, 460, 461, 462]
 		},
 		{
@@ -9422,7 +9406,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				463,
 				464,
@@ -9511,7 +9494,6 @@
 			"origin": [12.89063, 18.25719, 17.15728],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": []
 		},
 		{
@@ -9519,7 +9501,6 @@
 			"origin": [7.59936, 28.66943, 4.82305],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": []
 		},
 		{
@@ -9527,7 +9508,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": []
 		},
 		{
@@ -9535,7 +9515,6 @@
 			"origin": [7.85, 29.94375, 2.225],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				543,
 				544,
@@ -9665,7 +9644,6 @@
 			"origin": [7.22752, 26.88301, 4.4793],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675]
 		},
 		{
@@ -9673,7 +9651,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": []
 		}
 	]

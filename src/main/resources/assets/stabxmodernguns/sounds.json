@@ -1411,5 +1411,35 @@
         "name": "stabxmodernguns:item/az67_suppressed"
       }
     ]
+  },
+
+
+  "item.ratnik19.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ratnik19_fire"
+      }
+    ]
+  },
+  "item.ratnik19.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ratnik19_cock"
+      }
+    ]
+  },
+
+  "item.ratnik19.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ratnik19_suppressed"
+      }
+    ]
   }
+
+
+
 }

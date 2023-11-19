@@ -168,6 +168,10 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> AZ67_SUPPRESSED = register("item.az67.suppressed");
 
 
+    public static final RegistryObject<SoundEvent> RATNIK19_FIRE = register("item.ratnik19.fire");
+    public static final RegistryObject<SoundEvent> RATNIK19_COCK = register("item.ratnik19.cock");
+    public static final RegistryObject<SoundEvent> RATNIK19_SUPPRESSED = register("item.ratnik19.suppressed");
+
     //-----------------------------------------------------Light Machine gun sounds--------------------------------------------------------------------------
 
 

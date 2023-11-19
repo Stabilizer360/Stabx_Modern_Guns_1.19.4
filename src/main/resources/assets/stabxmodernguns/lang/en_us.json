@@ -53,6 +53,7 @@
   "item.stabxmodernguns.serbu_super_shorty": "Serbu Super Shorty",
   "item.stabxmodernguns.m1_garand_remake": "M1 Garand Remake",
   "item.stabxmodernguns.dragnaov_svd": "Dragnaov Sniper SVD",
+  "item.stabxmodernguns.ratnik19": "Ratnik 19",
 
 
 
@@ -100,15 +101,15 @@
   "subtitle.stabxmodernguns.enchanted_fire": "Enchanted gunfire",
 
 
-
-  "itemGroup.stabxmodernguns": "Stabx Modern Guns/Pistols",
-  "itemGroup.stabx_smgs": "Sub Machine Guns",
-  "itemGroup.stabx_assault_rifles": "Assault Rifles",
-  "itemGroup.stabx_shotguns": "Shotguns",
-  "itemGroup.stabx_rifles": "Rifles",
-  "itemGroup.stabx_sniper_rifles": "Sniper Rifles",
-  "itemGroup.stabx_lmgs": "Light Machine Guns",
-  "itemGroup.stabx_misc": "Miscellaneous/Attachments",
-  "itemGroup.stabx_ammunation": "Ammunition",
-  "itemGroup.stabx_dmrs": "Marksman Rifles/DMRs"
+  "creativetab.stabxmodernguns": "Stabx Modern guns/ Pistols",
+  "creativetab.smgs": "Sub Machine Guns",
+  "creativetab.assault_rifles": "Assault Rifles",
+  "creativetab.rifles": "Rifles",
+  "creativetab.shotguns": "Shotguns",
+  "creativetab.dmrs": "Marksman Rifle DMRs",
+  "creativetab.sniper_rifles": "Sniper Rifles",
+  "creativetab.lmgs": "Light Machine Guns",
+  "creativetab.miscellaneous": "Other Weapons Miscellaneous",
+  "creativetab.ammunition_tab": "Ammunition",
+  "creativetab.attachments_tab": "Attachments"
 }
