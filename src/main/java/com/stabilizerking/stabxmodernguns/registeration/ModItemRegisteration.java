@@ -7,7 +7,10 @@ import com.mrcrayfish.guns.item.attachment.impl.Barrel;
 import com.mrcrayfish.guns.item.attachment.impl.Scope;
 import com.mrcrayfish.guns.item.attachment.impl.Stock;
 import com.mrcrayfish.guns.item.attachment.impl.UnderBarrel;
+import com.stabilizerking.stabxmodernguns.common.BarrelProperties;
 import com.stabilizerking.stabxmodernguns.common.ScopeProperties;
+import com.stabilizerking.stabxmodernguns.common.StockProperties;
+import com.stabilizerking.stabxmodernguns.common.UnderBarrelProperties;
 import com.stabilizerking.stabxmodernguns.item.M1GrandeGunItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -232,31 +235,45 @@ public class ModItemRegisteration {
             () -> new ScopeItem(ScopeProperties.SIMPLE_SNIPER_SCOPE, new Item.Properties().stacksTo(1)));
 
 
+
+
+
     //---------------------------------------------------- Stock Attachments ---------------------------------------------------------------//
 
-    public static final RegistryObject<StockItem> CUSTOM_STOCK = ITEMS.register("custom_stock",
-            () -> new StockItem(Stock.create(GunModifiers.STABILISED),new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<StockItem> LIGHT_STOCK = ITEMS.register("light_stock",
+            () -> new StockItem(StockProperties.LIGHT_STOCK,new Item.Properties().stacksTo(1)));
+
+
+    public static final RegistryObject<StockItem> MEDIUM_STOCK = ITEMS.register("medium_stock",
+            () -> new StockItem(StockProperties.MEDIUM_STOCK,new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<StockItem> HEAVY_STOCK = ITEMS.register("heavy_stock",
+            () -> new StockItem(StockProperties.HEAVY_STOCk,new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<StockItem> ANTI_RECOIl_STOCK = ITEMS.register("anti_recoil_stock",
+            () -> new StockItem(StockProperties.ANTI_RECOIL_STOCk,new Item.Properties().stacksTo(1)));
 
 
     //--------------------------------------------------- Barrel Attachments ---------------------------------------------------------------//
 
     public static final RegistryObject<BarrelItem> ADVANCED_SUPPRESSOR = ITEMS.register("advanced_suppressor",
-            () -> new BarrelItem(Barrel.create(17.0f, GunModifiers.SILENCED),new Item.Properties().stacksTo(1)));
+            () -> new BarrelItem(BarrelProperties.ADVANCED_SUPPRESSOR,new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<BarrelItem> ADVANCED_MUZZLE_BRAKE = ITEMS.register("advanced_muzzle_brake",
-            () -> new BarrelItem(Barrel.create(7.0f, GunModifiers.REDUCED_RECOIL),new Item.Properties().stacksTo(1)));
+            () -> new BarrelItem(BarrelProperties.ADVANCED_MUZZLE_BRAKE,new Item.Properties().stacksTo(1)));
 
 
     //-------------------------------------------------- UnderBarrel Attachments ---------------------------------------------------------------//
 
     public static final RegistryObject<UnderBarrelItem> ANGLED_FOREGRIP = ITEMS.register("angled_foregrip",
-            () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.REDUCED_RECOIL),new Item.Properties().stacksTo(1)));
+            () -> new UnderBarrelItem(UnderBarrelProperties.ANGLED_FOREGRIP,new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<UnderBarrelItem> VERTICAL_FOREGRIP = ITEMS.register("vertical_foregrip",
-            () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.BETTER_CONTROL),new Item.Properties().stacksTo(1)));
+            () -> new UnderBarrelItem(UnderBarrelProperties.SKELETON_GRIP,new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<UnderBarrelItem> SKELETON_FOREGRIP = ITEMS.register("skeleton_grip",
-            () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.STABILISED),new Item.Properties().stacksTo(1)));
+            () -> new UnderBarrelItem(UnderBarrelProperties.SKELETON_GRIP,new Item.Properties().stacksTo(1)));
 
 
     //-------------------------------------------------------Weapons Ammunition--------------------------------------------------------------//

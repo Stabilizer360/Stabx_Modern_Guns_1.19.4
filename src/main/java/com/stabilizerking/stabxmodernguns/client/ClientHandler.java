@@ -17,7 +17,6 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.MP40.get(), new Mp40GunModel());
         ModelOverrides.register(ModItemRegisteration.TEC9.get(), new SimpleModel(SpecialModels.TEC9::getModel));
         ModelOverrides.register(ModItemRegisteration.HK416.get(), new Hk416Model());
-        ModelOverrides.register(ModItemRegisteration.SCAR_17.get(), new Scar17Model());
         ModelOverrides.register(ModItemRegisteration.AK_47.get(), new Ak47GunModel());
         ModelOverrides.register(ModItemRegisteration.AKM_762.get(), new Akm762GunModel());
         ModelOverrides.register(ModItemRegisteration.AKS_74_UX.get(), new Aks74uxGunModel());
@@ -27,10 +26,8 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.AA_12UX.get(),  new AA12UxModel());
         ModelOverrides.register(ModItemRegisteration.ARISAKA_TYPE_99.get(), new ArisakaType99GunModel());
         ModelOverrides.register(ModItemRegisteration.ARTIC_WARFARE_MAGNUM.get(), new AWMRifleModel());
-        ModelOverrides.register(ModItemRegisteration.SCAR_17.get(), new  Scar17Model());
         ModelOverrides.register(ModItemRegisteration.BARRETT_M82.get(), new M82GunModel());
         ModelOverrides.register(ModItemRegisteration.MK_170_CROSSBOW.get(), new SimpleModel(SpecialModels.MK_170_CROSSBOW::getModel));
-        ModelOverrides.register(ModItemRegisteration.SCAR17_HD.get(), new Scar17HDGunModel());
         ModelOverrides.register(ModItemRegisteration.FAMAS_G7.get(), new FamasG7GunModel());
         ModelOverrides.register(ModItemRegisteration.KAR98K.get(), new Kar98kRifleModel());
         ModelOverrides.register(ModItemRegisteration.COLT_M1911A1.get(), new M1911A1GunModel());
@@ -63,6 +60,8 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.AK_103.get(), new AK103Model());
         ModelOverrides.register(ModItemRegisteration.AZ67.get(), new Az67Model());
         ModelOverrides.register(ModItemRegisteration.RATNIK19.get(), new Ratnik19Model());
+        ModelOverrides.register(ModItemRegisteration.SCAR17_HD.get(), new Scar17HDGunModel());
+        ModelOverrides.register(ModItemRegisteration.SCAR_17.get(), new Scar17Model());
 
     }
 }

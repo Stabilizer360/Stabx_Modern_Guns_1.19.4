@@ -1,0 +1,132 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "stabxmodernguns:item/scar17",
+		"particle": "stabxmodernguns:item/scar17"
+	},
+	"elements": [
+		{
+			"from": [8.33248, 5.56705, 8.36147],
+			"to": [8.64498, 6.1608, 13.42397],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.05123, 2.87955, 13.8771]},
+			"faces": {
+				"north": {"uv": [4.375, 6.75, 4.5, 6.875], "texture": "#1"},
+				"east": {"uv": [3.375, 3.125, 4, 3.25], "texture": "#1"},
+				"south": {"uv": [6.75, 4.375, 6.875, 4.5], "texture": "#1"},
+				"west": {"uv": [3.375, 3.25, 4, 3.375], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.48873, 6.84375, 6.25],
+			"to": [7.70748, 6.96875, 6.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.48873, -17.0625, 0]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 6.625, 6.125], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"south": {"uv": [6.125, 6.5, 6.25, 6.625], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"up": {"uv": [6.625, 6.25, 6.5, 6.125], "texture": "#1"},
+				"down": {"uv": [6.375, 6.5, 6.25, 6.625], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.39498, 6.6875, 6.21875],
+			"to": [7.45748, 7.125, 6.40625],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.20748, 6.90625, 6.3125]},
+			"faces": {
+				"north": {"uv": [6.5, 6.25, 6.625, 6.375], "texture": "#1"},
+				"east": {"uv": [6.375, 6.5, 6.5, 6.625], "texture": "#1"},
+				"south": {"uv": [6.5, 6.375, 6.625, 6.5], "texture": "#1"},
+				"west": {"uv": [6.5, 6.5, 6.625, 6.625], "texture": "#1"},
+				"up": {"uv": [0.125, 6.75, 0, 6.625], "texture": "#1"},
+				"down": {"uv": [6.75, 0, 6.625, 0.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.39498, 6.6875, 6.21875],
+			"to": [7.45748, 7.125, 6.40625],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.20748, 6.90625, 6.3125]},
+			"faces": {
+				"north": {"uv": [0.125, 6.625, 0.25, 6.75], "texture": "#1"},
+				"east": {"uv": [6.625, 0.125, 6.75, 0.25], "texture": "#1"},
+				"south": {"uv": [0.25, 6.625, 0.375, 6.75], "texture": "#1"},
+				"west": {"uv": [6.625, 0.25, 6.75, 0.375], "texture": "#1"},
+				"up": {"uv": [0.5, 6.75, 0.375, 6.625], "texture": "#1"},
+				"down": {"uv": [6.75, 0.375, 6.625, 0.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.39498, 6.8125, 6.09375],
+			"to": [7.45748, 7, 6.53125],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.20748, 6.90625, 6.3125]},
+			"faces": {
+				"north": {"uv": [0.5, 6.625, 0.625, 6.75], "texture": "#1"},
+				"east": {"uv": [6.625, 0.5, 6.75, 0.625], "texture": "#1"},
+				"south": {"uv": [0.625, 6.625, 0.75, 6.75], "texture": "#1"},
+				"west": {"uv": [6.625, 0.625, 6.75, 0.75], "texture": "#1"},
+				"up": {"uv": [0.875, 6.75, 0.75, 6.625], "texture": "#1"},
+				"down": {"uv": [6.75, 0.75, 6.625, 0.875], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.39498, 6.8125, 6.09375],
+			"to": [7.45748, 7, 6.53125],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.20748, 6.90625, 6.3125]},
+			"faces": {
+				"north": {"uv": [0.875, 6.625, 1, 6.75], "texture": "#1"},
+				"east": {"uv": [6.625, 0.875, 6.75, 1], "texture": "#1"},
+				"south": {"uv": [1, 6.625, 1.125, 6.75], "texture": "#1"},
+				"west": {"uv": [6.625, 1, 6.75, 1.125], "texture": "#1"},
+				"up": {"uv": [1.25, 6.75, 1.125, 6.625], "texture": "#1"},
+				"down": {"uv": [6.75, 1.125, 6.625, 1.25], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.5, -4],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.5, -4],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"translation": [-6, 7, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [-6, 7, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [24, -152, 0],
+			"translation": [1.25, 1, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [-2.5, 5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Now main Body",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		},
+		{
+			"name": "Charging handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [1, 2, 3, 4, 5]
+		}
+	]
+}

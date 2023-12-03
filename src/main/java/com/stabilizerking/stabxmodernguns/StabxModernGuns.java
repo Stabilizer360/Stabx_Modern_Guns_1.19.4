@@ -200,13 +200,16 @@ public class StabxModernGuns {
             event.accept(ModItemRegisteration.MINI_SIGHT);
             event.accept(ModItemRegisteration.KOBRA_SIGHT);
             event.accept(ModItemRegisteration.ZA_MINI_RED_DOT_SIGHT);
-            event.accept(ModItemRegisteration.CUSTOM_STOCK);
             event.accept(ModItemRegisteration.ANGLED_FOREGRIP);
             event.accept(ModItemRegisteration.VERTICAL_FOREGRIP);
             event.accept(ModItemRegisteration.SKELETON_FOREGRIP);
             event.accept(ModItemRegisteration.ADVANCED_MUZZLE_BRAKE);
             event.accept(ModItemRegisteration.ADVANCED_SUPPRESSOR);
             event.accept(ModItemRegisteration.SIMPLE_SNIPER_SCOPE);
+            event.accept(ModItemRegisteration.ANTI_RECOIl_STOCK);
+            event.accept(ModItemRegisteration.LIGHT_STOCK);
+            event.accept(ModItemRegisteration.MEDIUM_STOCK);
+            event.accept(ModItemRegisteration.HEAVY_STOCK);
         }
 
         //----------------------------------------------Ammuniation-------------------------------------------------------------------------------//

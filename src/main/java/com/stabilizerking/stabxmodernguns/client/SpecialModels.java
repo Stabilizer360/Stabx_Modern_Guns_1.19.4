@@ -22,8 +22,26 @@ public enum SpecialModels {
 
 
     M4("gun/m4"),
-    M4_IRONSIGHTS("gun/m4_optic_sight_mount"),
-    M4_IRONSIGHTS_MOUNT("gun/m4_optic_sight_unmount"),
+    M4_IRONSIGHTS("gun/m4_ironsights"),
+    M4_IRONSIGHTS_MOUNT("gun/m4_ironsights_mount"),
+
+    M4_ADVANCED_MUZZLE("gun/m4_advanced_muzzle"),
+
+    M4_ANGLED_GRIP("gun/m4_angled_grip"),
+
+    M4_BOLT_RELEASE("gun/m4_bolt_release"),
+
+    M4_DEFAULT_MUZZLE("gun/m4_default_muzzle"),
+
+    M4_DEFAULT_STOCK("gun/m4_default_stock"),
+    M4_HEAVY_STOCK("gun/m4_heavy_stock"),
+    M4_LIGHT_STOCK("gun/m4_light_stock"),
+    M4_MEDIUM_STOCK("gun/m4_medium_stock"),
+    M4_ANTI_RECOIl_STOCK("gun/m4_anti_recoil_stock"),
+    M4_SKELETON_GRIP("gun/m4_skeleton_grip"),
+    M4_SUPPRESSOR("gun/m4_suppressor"),
+    M4_VERTICAL_GRIP("gun/m4_vertical_grip"),
+
     FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON ("gun/500magnum_smith_and_wesson"),
     GLOCK_19_C ("gun/glock19c"),
     GLOCK_19_C_SLIDER ("gun/glock19c_slider_cover"),
@@ -36,10 +54,28 @@ public enum SpecialModels {
     MP40("gun/mp40"),
     MP40_CHARGING_HANDLE("gun/mp40_charging_handle"),
     TEC9("gun/tec9"),
-    SCAR_17("gun/scar17"),
-    SCAR_17_CHARGING_HANDLE("gun/scar17_charging_handle"),
-    SCAR_17_IRONSIGHTS("gun/scar17_ironsights"),
-    SCAR_17_IRONSIGHTS_MOUNT("gun/scar17_ironsights_mount"),
+
+
+    //---------------------------------------------------------------------Scar17--------------------------------------------------------------//
+    SCAR_17("gun/assault_rifles/scar/scar17"),
+    SCAR_17_CHARGING_HANDLE("gun/assault_rifles/scar/scar17_charging_handle"),
+    SCAR_17_IRONSIGHTS("gun/assault_rifles/scar/scar17_ironsights"),
+    SCAR_17_IRONSIGHTS_MOUNT("gun/assault_rifles/scar/scar17_ironsights_mount"),
+    SCAR_17_ADVANCED_MUZZLE("gun/assault_rifles/scar/scar17_advanced_muzzle"),
+    SCAR_17_ADVANCED_SUPPRESSOR("gun/assault_rifles/scar/scar17_advanced_suppressor"),
+    SCAR_17_ANGLED_GRIP("gun/assault_rifles/scar/scar17_angled_grip"),
+    SCAR_17_DEFAULT_MUZZLE("gun/assault_rifles/scar/scar17_default_muzzle"),
+    SCAR_17_DEFAULT_STOCK("gun/assault_rifles/scar/scar17_default_stock"),
+    SCAR_17_LIGHT_STOCK("gun/assault_rifles/scar/scar17_light_stock"),
+    SCAR_17_MEDIUM_STOCK("gun/assault_rifles/scar/scar17_medium_stock"),
+    SCAR_17_HEAVY_STOCK("gun/assault_rifles/scar/scar17_heavy_stock"),
+    SCAR_17_ANTI_RECOIl_STOCK("gun/assault_rifles/scar/scar17_anti_recoil_stock"),
+    SCAR_17_SKELETON_GRIP("gun/assault_rifles/scar/scar17_skeleton_grip"),
+    SCAR_17_SUPPRESSOR("gun/assault_rifles/scar/scar17_suppressor"),
+    SCAR_17_VERTICAL_GRIP("gun/assault_rifles/scar/scar17_vertical_grip"),
+
+
+
     AK_47("gun/ak47"),
     AK_47_CHARGING_HANDLE("gun/ak47_charging_handle"),
     AK_47_IRONSIGHTS("gun/ak47_ironsights"),

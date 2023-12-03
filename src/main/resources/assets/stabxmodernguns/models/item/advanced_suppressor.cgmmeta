@@ -1,0 +1,11 @@
+{
+    "stabxmodernguns:model": {
+        "origin": [8.0, 8.0, 8.0]
+    },
+    "stabxmodernguns:barrel": {
+        "muzzleFlash": {
+            "translation": [8.0, 8.0, -8.1],
+            "scale": [0.1, 0.1, 0.1]
+        }
+    }
+}
