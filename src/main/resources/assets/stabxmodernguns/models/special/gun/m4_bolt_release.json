@@ -1,0 +1,344 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"8": "stabxmodernguns:item/m4"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [8.23996, 6.1, 8.58039],
+			"to": [8.53996, 6.48125, 10.68211],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.04621, -6.05625, 19.31875]},
+			"faces": {
+				"north": {"uv": [7.125, 4.25, 7.25, 4.375], "texture": "#8"},
+				"east": {"uv": [6, 4.75, 6.25, 4.875], "texture": "#8"},
+				"south": {"uv": [4.375, 7.125, 4.5, 7.25], "texture": "#8"},
+				"west": {"uv": [6, 5, 6.25, 5.125], "texture": "#8"},
+				"up": {"uv": [6.125, 6.25, 6, 6], "texture": "#8"},
+				"down": {"uv": [0.5, 6.125, 0.375, 6.375], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.17843, 6.40934, 8.58039],
+			"to": [8.47843, 6.66559, 10.68211],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.32843, 6.59996, 10.475]},
+			"faces": {
+				"north": {"uv": [7.125, 4.375, 7.25, 4.5], "texture": "#8"},
+				"east": {"uv": [0.5, 6.125, 0.75, 6.25], "texture": "#8"},
+				"south": {"uv": [4.5, 7.125, 4.625, 7.25], "texture": "#8"},
+				"west": {"uv": [6.125, 0.625, 6.375, 0.75], "texture": "#8"},
+				"up": {"uv": [6.25, 1, 6.125, 0.75], "texture": "#8"},
+				"down": {"uv": [1.375, 6.125, 1.25, 6.375], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.27121, 6.1, 7.20539],
+			"to": [8.57121, 6.48125, 8.77586],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.07746, -6.05625, 17.4125]},
+			"faces": {
+				"north": {"uv": [7.125, 4.625, 7.25, 4.75], "texture": "#8"},
+				"east": {"uv": [6.125, 1.75, 6.375, 1.875], "texture": "#8"},
+				"south": {"uv": [4.75, 7.125, 4.875, 7.25], "texture": "#8"},
+				"west": {"uv": [6.125, 2.25, 6.375, 2.375], "texture": "#8"},
+				"up": {"uv": [2.625, 6.375, 2.5, 6.125], "texture": "#8"},
+				"down": {"uv": [3, 6.125, 2.875, 6.375], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.20968, 6.40934, 7.20539],
+			"to": [8.50968, 6.66559, 8.77586],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.35968, 6.59996, 8.56875]},
+			"faces": {
+				"north": {"uv": [7.125, 4.5, 7.25, 4.625], "texture": "#8"},
+				"east": {"uv": [6.125, 1.25, 6.375, 1.375], "texture": "#8"},
+				"south": {"uv": [4.625, 7.125, 4.75, 7.25], "texture": "#8"},
+				"west": {"uv": [1.375, 6.125, 1.625, 6.25], "texture": "#8"},
+				"up": {"uv": [6.25, 1.625, 6.125, 1.375], "texture": "#8"},
+				"down": {"uv": [2.5, 6.125, 2.375, 6.375], "texture": "#8"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.25, -2.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.25, -2.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"translation": [-5.5, 6.75, 2],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"translation": [-5.5, 6.75, 2],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"ground": {
+			"translation": [0, 6.75, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"gui": {
+			"rotation": [-157.49, -28.8, 179.45],
+			"translation": [1, 1.75, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [-3.25, 6, -1.75],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Gun handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Main m4 body",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "mag Rel;ease",
+			"origin": [7.62764, 23.85085, 8.82586],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Extra side details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "group",
+					"origin": [8.00264, 3.41801, 13.34464],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "group",
+							"origin": [8.00264, 3.41801, 13.34464],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fire Selector model",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Bolt Release Thingy",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "Bolt release",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Stock",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "barrel",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "underbarrel rail",
+			"origin": [8.02513, 24.06783, -6.5875],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "underbarrel rail",
+					"origin": [8.02513, 24.06783, -6.5875],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Sight Rails",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Pulling handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "group",
+					"origin": [8.00625, 19.69279, 8.36749],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "group",
+							"origin": [8.00625, 0.41154, 8.36749],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magazine designng",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		}
+	]
+}
