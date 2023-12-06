@@ -81,8 +81,9 @@ public class AKs74Model implements IOverrideModel {
         //------------------------------------------------------------ Stock part--------------------------------------------------------------------//
         // Now We  will not same behavior with stock
         if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get()) {
-            //Rendering From The MrCrayFishes Gun Mod itself
             RenderUtil.renderModel(SpecialModels.AKS74_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+
         } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.TACTICAL_STOCK.get()) {
             RenderUtil.renderModel(SpecialModels.AKS74_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
 

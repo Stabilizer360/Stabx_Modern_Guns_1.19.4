@@ -270,7 +270,7 @@ public class ModItemRegisteration {
             () -> new UnderBarrelItem(UnderBarrelProperties.ANGLED_FOREGRIP,new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<UnderBarrelItem> VERTICAL_FOREGRIP = ITEMS.register("vertical_foregrip",
-            () -> new UnderBarrelItem(UnderBarrelProperties.SKELETON_GRIP,new Item.Properties().stacksTo(1)));
+            () -> new UnderBarrelItem(UnderBarrelProperties.VERTICAL_GRIP,new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<UnderBarrelItem> SKELETON_FOREGRIP = ITEMS.register("skeleton_grip",
             () -> new UnderBarrelItem(UnderBarrelProperties.SKELETON_GRIP,new Item.Properties().stacksTo(1)));

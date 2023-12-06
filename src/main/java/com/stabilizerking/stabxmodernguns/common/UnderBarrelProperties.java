@@ -9,4 +9,6 @@ public class UnderBarrelProperties {
     public static final UnderBarrel ANGLED_FOREGRIP = (UnderBarrel.create(GunModifiers.REDUCED_RECOIL));
     public static final UnderBarrel VERTICAL_GRIP = (UnderBarrel.create(GunModifiers.BETTER_CONTROL));
     public static final UnderBarrel SKELETON_GRIP= (UnderBarrel.create(GunModifiers.STABILISED));
+
+
 }
