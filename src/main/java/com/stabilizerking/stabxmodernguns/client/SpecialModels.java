@@ -127,8 +127,8 @@ public enum SpecialModels {
 
     AKS_74UX("gun/assault_rifles/aks/aks74ux/aks74ux"),
     AKS_74UX_CHARGING_HANDLE("gun/assault_rifles/aks/aks74ux/aks74ux_charging_handle"),
-    AKS_74UX_IRONSIGHTS("gun/assault_rifles/aks/aks74ux_ironsights"),
-    AKS_74UX_IRONSIGHTS_MOUNT("gun/assault_rifles/aks/aks74ux_ironsights_mount"),
+    AKS_74UX_IRONSIGHTS("gun/assault_rifles/aks/aks74ux/aks74ux_ironsights"),
+    AKS_74UX_IRONSIGHTS_MOUNT("gun/assault_rifles/aks/aks74ux/aks74ux_ironsights_mount"),
     AKS_74UX_ADVANCED_MUZZLE("gun/assault_rifles/aks/aks74ux/aks74ux_advanced_muzzle"),
     AKS_74UX_ANGLED_GRIP("gun/assault_rifles/aks/aks74ux/aks74ux_angled_grip"),
     AKS_74UX_DEFAULT_MUZZLE("gun/assault_rifles/aks/aks74ux/aks74ux_default_muzzle"),
