@@ -28,51 +28,80 @@ public class Ratnik19Model implements IOverrideModel {
         RenderUtil.renderModel(SpecialModels.RATNIK19.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         //Now we want to Render Specific parts of a gun when you put attachments
-
-      //------------------------------------------------------------ Gun Barrel part--------------------------------------------------------------------//
+        //------------------------------------------------------------ Gun Barrel part--------------------------------------------------------------------//
         // First we will do a barrel IF this works
         if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
-            RenderUtil.renderModel(SpecialModels.RATIK19_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
-        }
-        else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get())
-        {
-            RenderUtil.renderModel(SpecialModels.RATIK19_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
-        }
-        else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get())
-        {
-            RenderUtil.renderModel(SpecialModels.RATIK19_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.RATNIK19_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
         //In case of the any attachment is not putted
         else {
-            RenderUtil.renderModel(SpecialModels.RATIK19_MUZZLE_DEFAULT.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.RATNIK19_DEFAULT_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
 
 
         //------------------------------------------------------------ Under Barrel part--------------------------------------------------------------------//
 
-        //Rendering of underbarrel parts goes here, When you put the grips of other mod attachments I have to make them compatible
-        //Anyways we will  just hide the default models inside the gun while still showing the redered icons
+        //First it will render the default barrel . if any attachment is putted  it wil render the specific sttachment
+
         if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.ANGLED_FOREGRIP.get()) {
-            RenderUtil.renderModel(SpecialModels.RATIK19_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.RATNIK19_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
         if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.SKELETON_FOREGRIP.get()) {
-            RenderUtil.renderModel(SpecialModels.RATIK19_SKELETON_FOREGRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.RATNIK19_SKELETON_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
         if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.VERTICAL_FOREGRIP.get()) {
-            RenderUtil.renderModel(SpecialModels.RATIK19_VERTICAL_FOREGRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.RATNIK19_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
         // Now the parts from when you put from Mrcrayfishes fun mod it will just show the default models so I dont waste my more time  in deveploment
 
         //Even if you put the Light grip attachment from CGM gun mod it will still render the same model :))) becuase i set it that way
 
         if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get()) {
-            RenderUtil.renderModel(SpecialModels.RATIK19_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.RATNIK19_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
 
         if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.SPECIALISED_GRIP.get()) {
-            RenderUtil.renderModel(SpecialModels.RATIK19_VERTICAL_FOREGRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.RATNIK19_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
 
+
+        //------------------------------------------------------------ Stock part--------------------------------------------------------------------//
+        // Now We  will not same behavior with stock
+        if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get()) {
+            //Rendering From The MrCrayFishes Gun Mod itself
+            RenderUtil.renderModel(SpecialModels.RATNIK19_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.TACTICAL_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            //Now Rendering thingy From My mod Stocks
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.LIGHT_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.MEDIUM_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.ANTI_RECOIl_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_ANTI_RECOIl_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.HEAVY_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        }
+
+        //In case of the any attachment is not putted
+        else {
+            RenderUtil.renderModel(SpecialModels.RATNIK19_DEFAULT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
 
         if(entity.equals(Minecraft.getInstance().player)) {
 
