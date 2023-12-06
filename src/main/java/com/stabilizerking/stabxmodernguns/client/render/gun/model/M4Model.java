@@ -99,7 +99,6 @@ public class M4Model implements IOverrideModel {
 
 
             //Now Rendering thingy From My mod Stocks
-            RenderUtil.renderModel(SpecialModels.M4_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
         } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.LIGHT_STOCK.get()) {
             RenderUtil.renderModel(SpecialModels.M4_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
@@ -110,7 +109,7 @@ public class M4Model implements IOverrideModel {
             RenderUtil.renderModel(SpecialModels.M4_ANTI_RECOIl_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.HEAVY_STOCK.get()) {
-            RenderUtil.renderModel(SpecialModels.M4_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.M4_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         }
 

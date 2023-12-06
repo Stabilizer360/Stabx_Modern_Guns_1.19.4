@@ -47,7 +47,7 @@ public class Scar17Model implements IOverrideModel {
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
             RenderUtil.renderModel(SpecialModels.SCAR_17_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
-        //In case of the any attachment is not putted if I Nine Zero Gun mod releases his new updat i will defently add the compatinility
+        //In case of any attachment is not putted if I Nine Zero Gun mod releases his new update i will decently add the compatibility
         else {
             RenderUtil.renderModel(SpecialModels.SCAR_17_DEFAULT_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
@@ -65,9 +65,9 @@ public class Scar17Model implements IOverrideModel {
         if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.VERTICAL_FOREGRIP.get()) {
             RenderUtil.renderModel(SpecialModels.SCAR_17_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
-        // Now the parts from when you put from Mrcrayfishes fun mod it will just show the default models so I dont waste my more time  in deveploment
+        // Now the parts from when you put from Mr crayfishes fun mod it will just show the default models, so I don't waste my more time  in development
 
-        //Even if you put the Light grip attachment from CGM gun mod it will still render the same model :))) becuase i set it that way
+        //Even if you put the Light grip attachment from CGM gun mod it will still render the same model :))) because I set it that way
 
         if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get()) {
             RenderUtil.renderModel(SpecialModels.SCAR_17_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
@@ -91,9 +91,7 @@ public class Scar17Model implements IOverrideModel {
         } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get()) {
             RenderUtil.renderModel(SpecialModels.SCAR_17_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
-
             //Now Rendering thingy From My mod Stocks
-            RenderUtil.renderModel(SpecialModels.SCAR_17_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
         } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.LIGHT_STOCK.get()) {
             RenderUtil.renderModel(SpecialModels.SCAR_17_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
@@ -107,7 +105,7 @@ public class Scar17Model implements IOverrideModel {
             RenderUtil.renderModel(SpecialModels.SCAR_17_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
 
-        //In case of the any attachment is not putted it will render Default stock
+        //In case of any attachment is not putted it will render Default stock
         else {
             RenderUtil.renderModel(SpecialModels.SCAR_17_DEFAULT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }

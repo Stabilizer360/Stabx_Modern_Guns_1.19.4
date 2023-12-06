@@ -19,7 +19,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.HK416.get(), new Hk416Model());
         ModelOverrides.register(ModItemRegisteration.AK_47.get(), new Ak47GunModel());
         ModelOverrides.register(ModItemRegisteration.AKM_762.get(), new Akm762GunModel());
-        ModelOverrides.register(ModItemRegisteration.AKS_74_UX.get(), new Aks74uxGunModel());
+        ModelOverrides.register(ModItemRegisteration.AKS_74_UX.get(), new Aks74uxModel());
         ModelOverrides.register(ModItemRegisteration.M16.get(),new M16Model());
         ModelOverrides.register(ModItemRegisteration.M4A1.get(), new M4A1Model());
         ModelOverrides.register(ModItemRegisteration.ACR_BUSHMASTER.get(), new ACR360BushmasterModel());

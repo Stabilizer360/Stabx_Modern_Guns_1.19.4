@@ -19,14 +19,14 @@ public class GK57Model implements IOverrideModel {
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrix, MultiBufferSource renderingbuffer, int light, int overlay){
 
         //This is a Main Gun Model.
-        RenderUtil.renderModel(SpecialModels.MODERN_GK57.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GK57.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         //So I wanna make the Iron Sights Go Disappear so in that case imma doing a RenderModel method.In here we use two diffrent models that will render on a stupid gun
 
         if (Gun.getScope(stack) == null) {
-            RenderUtil.renderModel(SpecialModels.MODERN_GK57_IRONSIGHTS.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GK57_IRONSIGHTS.getModel(), stack, matrix, renderingbuffer, light, overlay);
         } else {
-            RenderUtil.renderModel(SpecialModels.MODERN_GK57_IRONSIGHTS_MOUNT.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GK57_IRONSIGHTS_MOUNT.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
 
         matrix.pushPose();
@@ -45,7 +45,7 @@ public class GK57Model implements IOverrideModel {
         matrix.translate(0, 5.8 * 0.0625, 0);
 
         //This Thingy will render the M60 Charging handle I Hope this works.
-        RenderUtil.renderModel(SpecialModels.MODERN_GK57_CHARGING_HANDLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GK57_CHARGING_HANDLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
         //Always pop
         matrix.popPose();
 

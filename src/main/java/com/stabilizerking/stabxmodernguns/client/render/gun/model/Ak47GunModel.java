@@ -6,7 +6,10 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.init.ModItems;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import com.stabilizerking.stabxmodernguns.client.SpecialModels;
+import com.stabilizerking.stabxmodernguns.registeration.ModItemRegisteration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,6 +34,82 @@ public class Ak47GunModel implements IOverrideModel {
         } else {
             RenderUtil.renderModel(SpecialModels.AK_47_IRONSIGHTS_MOUNT.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
+
+        //------------------------------------------------------------ Gun Barrel part--------------------------------------------------------------------//
+        // First we will do a barrel IF this works
+        if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        //In case of the any attachment is not putted
+        else {
+            RenderUtil.renderModel(SpecialModels.AK_47_DEFAULT_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+        //------------------------------------------------------------ Under Barrel part--------------------------------------------------------------------//
+
+        //First it will render the default barrel . if any attachment is putted  it wil render the specific sttachment
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.ANGLED_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.SKELETON_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_SKELETON_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.VERTICAL_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        // Now the parts from when you put from Mrcrayfishes fun mod it will just show the default models so I dont waste my more time  in deveploment
+
+        //Even if you put the Light grip attachment from CGM gun mod it will still render the same model :))) becuase i set it that way
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.SPECIALISED_GRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+        //------------------------------------------------------------ Stock part--------------------------------------------------------------------//
+        // Now We  will not same behavior with stock
+        if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get()) {
+            //Rendering From The MrCrayFishes Gun Mod itself
+            RenderUtil.renderModel(SpecialModels.AK_47_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.TACTICAL_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            //Now Rendering thingy From My mod Stocks
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.LIGHT_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.MEDIUM_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.ANTI_RECOIl_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_ANTI_RECOIl_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.HEAVY_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.AK_47_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        }
+
+        //In case of the any attachment is not putted
+        else {
+            RenderUtil.renderModel(SpecialModels.AK_47_DEFAULT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
 
         matrix.pushPose();
         matrix.translate(0, -5.8 * 0.0625, 0);
