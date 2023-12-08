@@ -9,6 +9,6 @@ public class StockProperties {
 
     public static final Stock LIGHT_STOCK = (Stock.create(GunModifiers.STABILISED));
     public static final Stock MEDIUM_STOCK = (Stock.create(GunModifiers.BETTER_CONTROL));
-    public static final Stock HEAVY_STOCk = (Stock.create(GunModifiers.SUPER_STABILISED));
+    public static final Stock HEAVY_STOCK = (Stock.create(GunModifiers.REDUCED_RECOIL));
     public static final Stock ANTI_RECOIL_STOCk = (Stock.create(GunModifiers.REDUCED_RECOIL));
 }

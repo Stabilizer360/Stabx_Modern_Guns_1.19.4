@@ -249,20 +249,11 @@ public class ModItemRegisteration {
 
 
     public static final RegistryObject<StockItem> HEAVY_STOCK = ITEMS.register("heavy_stock",
-            () -> new StockItem(StockProperties.HEAVY_STOCk,new Item.Properties().stacksTo(1)));
+            () -> new StockItem(StockProperties.HEAVY_STOCK,new Item.Properties().stacksTo(1)));
 
 
     public static final RegistryObject<StockItem> ANTI_RECOIl_STOCK = ITEMS.register("anti_recoil_stock",
             () -> new StockItem(StockProperties.ANTI_RECOIL_STOCk,new Item.Properties().stacksTo(1)));
-
-
-
-
-
-
-
-
-
 
     //--------------------------------------------------- Barrel Attachments ---------------------------------------------------------------//
 
