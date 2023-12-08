@@ -52,14 +52,26 @@ public enum SpecialModels {
     MP5_CLASSIC_IRONSIGHTS_MOUNT("gun/smgs/mp5_classic/mp5_classic_ironsights_mount"),
 
 
+
+
+
     STRIKER45("gun/smgs/striker45/striker45"),
+
+
+
 
 
     MP40("gun/smgs/mp40/mp40"),
     MP40_CHARGING_HANDLE("gun/smgs/mp40/mp40_charging_handle"),
 
 
+
+
+
     TEC9("gun/smgs/tec9/tec9"),
+
+
+
 
 
     KRISS_VECTOR45("gun/smgs/vector45/kriss_vector45"),
@@ -68,9 +80,16 @@ public enum SpecialModels {
     KRISS_VECTOR45_IRONSIGHTS_MOUNT("gun/smgs/vector45/kriss_vector45_ironsights_mount"),
 
 
+
+
+
     ZXR_MP7("gun/smgs/mp7/zxr_mp7"),
     ZXR_MP7_IRONSIGHTS("gun/smgs/mp7/zxr_mp7_ironsights"),
     ZXR_MP7_IRONSIGHTS_MOUNT("gun/smgs/mp7/zxr_mp7_ironsights_mount"),
+
+
+
+
 
 
     //--------------------------------------------------------------- Assault Rifles---------------------------------------------------------
@@ -93,6 +112,11 @@ public enum SpecialModels {
 
 
 
+
+
+
+
+
     AKM_762("gun/assault_rifles/aks/akm762/akm_762"),
     AKM_762_ADVANCED_MUZZLE("gun/assault_rifles/aks/akm762/akm_762_advanced_muzzle"),
     AKM_762_ANGLED_GRIP("gun/assault_rifles/aks/akm762/akm_762_angled_grip"),
@@ -108,6 +132,10 @@ public enum SpecialModels {
     AKM_762_CHARGING_HANDLE("gun/assault_rifles/aks/akm762/akm_762_charging_handle"),
 
 
+
+
+
+
     AK_103("gun/assault_rifles/aks/ak_103/ak_103"),
     AK_103_ADVANCED_MUZZLE("gun/assault_rifles/aks/ak_103/ak_103_advanced_muzzle"),
     AK_103_ANGLED_GRIP("gun/assault_rifles/aks/ak_103/ak_103_angled_grip"),
@@ -121,6 +149,10 @@ public enum SpecialModels {
     AK_103_SUPPRESSOR("gun/assault_rifles/aks/ak_103/ak_103_suppressor"),
     AK_103_VERTICAL_GRIP("gun/assault_rifles/aks/ak_103/ak_103_vertical_grip"),
     AK_103_CHARGING_HANDLE("gun/assault_rifles/aks/ak_103/ak_103_charging_handle"),
+
+
+
+
 
 
 
@@ -202,16 +234,44 @@ public enum SpecialModels {
 
 
 
-    M16("gun/assault_rifles/m4s/m16"),
-    M16_IRONSIGHTS("gun/assault_rifles/m4s/m16_iron_sights"),
-    M16_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/m16_ironsights_mount"),
+    M16("gun/assault_rifles/m4s/m16/m16"),
+    M16_IRONSIGHTS("gun/assault_rifles/m4s/m16/m16_iron_sights"),
+    M16_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/m16/m16_ironsights_mount"),
+    M16_ADVANCED_MUZZLE("gun/assault_rifles/m4s/m16/m16_advanced_muzzle"),
+    M16_ADVANCED_SUPPRESSOR("gun/assault_rifles/m4s/m16/m16_advanced_suppressor"),
+    M16_ANGLED_GRIP("gun/assault_rifles/m4s/m16/m16_angled_grip"),
+    M16_DEFAULT_MUZZLE("gun/assault_rifles/m4s/m16/m16_default_muzzle"),
+    M16_DEFAULT_STOCK("gun/assault_rifles/m4s/m16/m16_default_stock"),
+    M16_HEAVY_STOCK("gun/assault_rifles/m4s/m16/m16_heavy_stock"),
+    M16_LIGHT_STOCK("gun/assault_rifles/m4s/m16/m16_light_stock"),
+    M16_MEDIUM_STOCK("gun/assault_rifles/m4s/m16/m16_medium_stock"),
+    M16_ANTI_RECOIl_STOCK("gun/assault_rifles/m4s/m16/m16_anti_recoil_stock"),
+    M16_SKELETON_GRIP("gun/assault_rifles/m4s/m16/m16_skeleton_grip"),
+    M16_SUPPRESSOR("gun/assault_rifles/m4s/m16/m16_suppressor"),
+    M16_VERTICAL_GRIP("gun/assault_rifles/m4s/m16/m16_vertical_grip"),
+
+
+
+    M4A1("gun/assault_rifles/m4s/m4a1/m4a1"),
+    M4A1_IRONSIGHTS("gun/assault_rifles/m4s/m4a1/m4a1_ironsights"),
+    M4A1_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/m4a1/m4a1_ironsights_mount"),
+    M4A1_ADVANCED_MUZZLE("gun/assault_rifles/m4s/m4a1/m4a1_advanced_muzzle"),
+    M4A1_ADVANCED_SUPPRESSOR("gun/assault_rifles/m4s/m4a1/m4a1_advanced_suppressor"),
+    M4A1_ANGLED_GRIP("gun/assault_rifles/m4s/m4a1/m4a1_angled_grip"),
+    M4A1_DEFAULT_MUZZLE("gun/assault_rifles/m4s/m4a1/m4a1_default_muzzle"),
+    M4A1_DEFAULT_STOCK("gun/assault_rifles/m4s/m4a1/m4a1_default_stock"),
+    M4A1_HEAVY_STOCK("gun/assault_rifles/m4s/m4a1/m4a1_heavy_stock"),
+    M4A1_LIGHT_STOCK("gun/assault_rifles/m4s/m4a1/m4a1_light_stock"),
+    M4A1_MEDIUM_STOCK("gun/assault_rifles/m4s/m4a1/m4a1_medium_stock"),
+    M4A1_ANTI_RECOIl_STOCK("gun/assault_rifles/m4s/m4a1/m4a1_anti_recoil_stock"),
+    M4A1_SKELETON_GRIP("gun/assault_rifles/m4s/m4a1/m4a1_skeleton_grip"),
+    M4A1_SUPPRESSOR("gun/assault_rifles/m4s/m4a1/m4a1_suppressor"),
+    M4A1_VERTICAL_GRIP("gun/assault_rifles/m4s/m4a1/m4a1_vertical_grip"),
 
 
 
 
-    M4A1("gun/assault_rifles/m4s/m4a1"),
-    M4A1_IRONSIGHTS("gun/assault_rifles/m4s/m4a1_ironsights"),
-    M4A1_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/m4a1_ironsights_mount"),
+
 
 
 
@@ -222,21 +282,28 @@ public enum SpecialModels {
 
 
 
-    M4("gun/assault_rifles/m4s/m4"),
-    M4_IRONSIGHTS("gun/assault_rifles/m4s/m4_ironsights"),
-    M4_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/m4_ironsights_mount"),
-    M4_ADVANCED_MUZZLE("gun/assault_rifles/m4s/m4_advanced_muzzle"),
-    M4_ANGLED_GRIP("gun/assault_rifles/m4s/m4_angled_grip"),
-    M4_BOLT_RELEASE("gun/assault_rifles/m4s/m4_bolt_release"),
-    M4_DEFAULT_MUZZLE("gun/assault_rifles/m4s/m4_default_muzzle"),
-    M4_DEFAULT_STOCK("gun/assault_rifles/m4s/m4_default_stock"),
-    M4_HEAVY_STOCK("gun/assault_rifles/m4s/m4_heavy_stock"),
-    M4_LIGHT_STOCK("gun/assault_rifles/m4s/m4_light_stock"),
-    M4_MEDIUM_STOCK("gun/assault_rifles/m4s/m4_medium_stock"),
-    M4_ANTI_RECOIl_STOCK("gun/assault_rifles/m4s/m4_anti_recoil_stock"),
-    M4_SKELETON_GRIP("gun/assault_rifles/m4s/m4_skeleton_grip"),
-    M4_SUPPRESSOR("gun/assault_rifles/m4s/m4_suppressor"),
-    M4_VERTICAL_GRIP("gun/assault_rifles/m4s/m4_vertical_grip"),
+
+
+
+
+
+
+
+    M4("gun/assault_rifles/m4s/m4/m4"),
+    M4_IRONSIGHTS("gun/assault_rifles/m4s/m4/m4_ironsights"),
+    M4_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/m4/m4_ironsights_mount"),
+    M4_ADVANCED_MUZZLE("gun/assault_rifles/m4s/m4/m4_advanced_muzzle"),
+    M4_ANGLED_GRIP("gun/assault_rifles/m4s/m4/m4_angled_grip"),
+    M4_BOLT_RELEASE("gun/assault_rifles/m4s/m4/m4_bolt_release"),
+    M4_DEFAULT_MUZZLE("gun/assault_rifles/m4s/m4/m4_default_muzzle"),
+    M4_DEFAULT_STOCK("gun/assault_rifles/m4s/m4/m4_default_stock"),
+    M4_HEAVY_STOCK("gun/assault_rifles/m4s/m4/m4_heavy_stock"),
+    M4_LIGHT_STOCK("gun/assault_rifles/m4s/m4/m4_light_stock"),
+    M4_MEDIUM_STOCK("gun/assault_rifles/m4s/m4/m4_medium_stock"),
+    M4_ANTI_RECOIl_STOCK("gun/assault_rifles/m4s/m4/m4_anti_recoil_stock"),
+    M4_SKELETON_GRIP("gun/assault_rifles/m4s/m4/m4_skeleton_grip"),
+    M4_SUPPRESSOR("gun/assault_rifles/m4s/m4/m4_suppressor"),
+    M4_VERTICAL_GRIP("gun/assault_rifles/m4s/m4/m4_vertical_grip"),
 
 
 
@@ -296,9 +363,9 @@ public enum SpecialModels {
 
 
 
-    HK416("gun/assault_rifles/m4s/hk416"),
-    HK416_IRONSIGHTS("gun/assault_rifles/m4s/hk416_ironsights"),
-    HK416_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/hk416_ironsights_mount"),
+    HK416("gun/assault_rifles/m4s/hk416/hk416"),
+    HK416_IRONSIGHTS("gun/assault_rifles/m4s/hk416/hk416_ironsights"),
+    HK416_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/hk416/hk416_ironsights_mount"),
 
 
 
@@ -315,9 +382,9 @@ public enum SpecialModels {
     NZ41_IRONSIGHTS_MOUNT("gun/assault_rifles/nz41/nz41_ironsights_mount"),
 
 
-    AZ67("gun/assault_rifles/m4s/az67"),
-    AZ67_IRONSIGHTS("gun/assault_rifles/m4s/az67_ironsights"),
-    AZ67_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/az67_ironsights_mount"),
+    AZ67("gun/assault_rifles/m4s/az67/az67"),
+    AZ67_IRONSIGHTS("gun/assault_rifles/m4s/az67/az67_ironsights"),
+    AZ67_IRONSIGHTS_MOUNT("gun/assault_rifles/m4s/az67/az67_ironsights_mount"),
 
 
 

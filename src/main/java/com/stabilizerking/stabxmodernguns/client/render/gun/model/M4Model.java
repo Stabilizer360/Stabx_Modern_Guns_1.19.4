@@ -87,9 +87,12 @@ public class M4Model implements IOverrideModel {
 
         //------------------------------------------------------------ Stock part--------------------------------------------------------------------//
         // Now We  will not same behavior with stock
+
+        //Rendering From The MrCrayFishes Gun Mod itself
         if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get()) {
-            //Rendering From The MrCrayFishes Gun Mod itself
             RenderUtil.renderModel(SpecialModels.M4_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+
         } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.TACTICAL_STOCK.get()) {
             RenderUtil.renderModel(SpecialModels.M4_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
