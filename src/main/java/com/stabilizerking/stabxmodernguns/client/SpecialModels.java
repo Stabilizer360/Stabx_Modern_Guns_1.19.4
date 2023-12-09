@@ -277,10 +277,22 @@ public enum SpecialModels {
 
 
 
-    ACR_BUSHMASTER("gun/assault_rifles/acr/acr_360_bushmaster"),
-    ACR_BUSHMASTER_IRONSIGHTS("gun/assault_rifles/acr/acr_360_bushmaster_iron_sights"),
-    ACR_BUSHMASTER_IRONSIGHTS_MOUNT("gun/assault_rifles/acr/acr_360_bushmaster_iron_sights_mount"),
-
+    ACR("gun/assault_rifles/acr/acr_360_bushmaster"),
+    ACR_IRONSIGHTS("gun/assault_rifles/acr/acr_360_bushmaster_iron_sights"),
+    ACR_IRONSIGHTS_MOUNT("gun/assault_rifles/acr/acr_360_bushmaster_iron_sights_mount"),
+    ACR_ADVANCED_MUZZLE("gun/assault_rifles/acr/acr_360_bushmaster_advanced_muzzle"),
+    ACR_ADVANCED_SUPPRESSOR("gun/assault_rifles/acr/acr_360_bushmaster_advanced_suppressor"),
+    ACR_ANGLED_GRIP("gun/assault_rifles/acr/acr_360_bushmaster_angled_grip"),
+    ACR_DEFAULT_MUZZLE("gun/assault_rifles/acr/acr_360_bushmaster_default_muzzle"),
+    ACR_DEFAULT_STOCK("gun/assault_rifles/acr/acr_360_bushmaster_default_stock"),
+    ACR_HEAVY_STOCK("gun/assault_rifles/acr/acr_360_bushmaster_heavy_stock"),
+    ACR_LIGHT_STOCK("gun/assault_rifles/acr/acr_360_bushmaster_light_stock"),
+    ACR_MEDIUM_STOCK("gun/assault_rifles/acr/acr_360_bushmaster_medium_stock"),
+    ACR_ANTI_RECOIl_STOCK("gun/assault_rifles/acr/acr_360_bushmaster_anti_recoil_stock"),
+    ACR_SKELETON_GRIP("gun/assault_rifles/acr/acr_360_bushmaster_skeleton_grip"),
+    ACR_SUPPRESSOR("gun/assault_rifles/acr/acr_360_bushmaster_suppressor"),
+    ACR_VERTICAL_GRIP("gun/assault_rifles/acr/acr_360_bushmaster_vertical_grip"),
+    ACR_BOLT_RELEASE("gun/assault_rifles/acr/acr_360_bushmaster_bolt_release"),
 
 
 
@@ -386,7 +398,18 @@ public enum SpecialModels {
 
     G36C_HD("gun/assault_rifles/g36/g36chd"),
     G36C_HD_CHARGING_HANDLE("gun/assault_rifles/g36/g36chd_charging_handle"),
-
+    G36C_HD_ADVANCED_MUZZLE("gun/assault_rifles/g36/g36chd_advanced_muzzle"),
+    G36C_HD_ADVANCED_SUPPRESSOR("gun/assault_rifles/g36/g36chd_advanced_suppressor"),
+    G36C_HD_ANGLED_GRIP("gun/assault_rifles/g36/g36chd_angled_grip"),
+    G36C_HD_DEFAULT_MUZZLE("gun/assault_rifles/g36/g36chd_default_muzzle"),
+    G36C_HD_DEFAULT_STOCK("gun/assault_rifles/g36/g36chd_default_stock"),
+    G36C_HD_HEAVY_STOCK("gun/assault_rifles/g36/g36chd_heavy_stock"),
+    G36C_HD_LIGHT_STOCK("gun/assault_rifles/g36/g36chd_light_stock"),
+    G36C_HD_MEDIUM_STOCK("gun/assault_rifles/g36/g36chd_medium_stock"),
+    G36C_HD_ANTI_RECOIl_STOCK("gun/assault_rifles/g36/g36chd_anti_recoil_stock"),
+    G36C_HD_SKELETON_GRIP("gun/assault_rifles/g36/g36chd_skeleton_grip"),
+    G36C_HD_SUPPRESSOR("gun/assault_rifles/g36/g36chd_suppressor"),
+    G36C_HD_VERTICAL_GRIP("gun/assault_rifles/g36/g36chd_vertical_grip"),
 
 
 

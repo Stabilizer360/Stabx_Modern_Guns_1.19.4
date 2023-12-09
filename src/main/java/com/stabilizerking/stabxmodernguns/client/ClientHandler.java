@@ -22,7 +22,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.AKS_74_UX.get(), new Aks74uxModel());
         ModelOverrides.register(ModItemRegisteration.M16.get(),new M16Model());
         ModelOverrides.register(ModItemRegisteration.M4A1.get(), new M4A1Model());
-        ModelOverrides.register(ModItemRegisteration.ACR_BUSHMASTER.get(), new ACR360BushmasterModel());
+        ModelOverrides.register(ModItemRegisteration.ACR_BUSHMASTER.get(), new AcrModel());
         ModelOverrides.register(ModItemRegisteration.AA_12UX.get(),  new AA12UxModel());
         ModelOverrides.register(ModItemRegisteration.ARISAKA_TYPE_99.get(), new ArisakaType99GunModel());
         ModelOverrides.register(ModItemRegisteration.ARTIC_WARFARE_MAGNUM.get(), new AWMRifleModel());
