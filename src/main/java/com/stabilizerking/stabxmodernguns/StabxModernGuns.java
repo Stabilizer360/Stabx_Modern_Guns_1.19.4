@@ -93,7 +93,6 @@ public class StabxModernGuns {
             gunItems.add(ModItemRegisteration.STG44.get());
             gunItems.add(ModItemRegisteration.HK416.get());
             gunItems.add(ModItemRegisteration.AUG556.get());
-            gunItems.add(ModItemRegisteration.SCAR17_HD.get());
             gunItems.add(ModItemRegisteration.FAMAS_G7.get());
             gunItems.add(ModItemRegisteration.MCX_HONEYBADGER.get());
             gunItems.add(ModItemRegisteration.MODERN_GK57.get());
@@ -129,6 +128,8 @@ public class StabxModernGuns {
 
             gunItems.add(ModItemRegisteration.M14.get());
             gunItems.add(ModItemRegisteration.SKS.get());
+            gunItems.add(ModItemRegisteration.HCAR762.get());
+
 
             for (GunItem gun : gunItems) {
                 event.accept(StabxModUtils.gunWithoutBar(gun));

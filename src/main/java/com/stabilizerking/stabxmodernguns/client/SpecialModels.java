@@ -339,10 +339,6 @@ public enum SpecialModels {
 
 
 
-    SCAR17_HD("gun/assault_rifles/scar/scar17hd"),
-    SCAR17_HD_CHARGING_HANDLE("gun/assault_rifles/scar/scar17hd_charging_handle"),
-    SCAR17_HD_IRONSIGHTS_MOUNT("gun/assault_rifles/scar/scar17hd_ironsights_mount"),
-    SCAR17_HD_IRONSIGHTS("gun/assault_rifles/scar/scar17hd_ironsights"),
 
 
 
@@ -416,6 +412,20 @@ public enum SpecialModels {
     MCX_HONEYBADGER("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger"),
     MCX_HONEYBADGER_IRONSIGHTS("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_iron_sights"),
     MCX_HONEYBADGER_IRONSIGHTS_MOUNT("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_iron_sights_mount"),
+    MCX_HONEYBADGER_ADVANCED_MUZZLE("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_advanced_muzzle"),
+    MCX_HONEYBADGER_ADVANCED_SUPPRESSOR("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_advanced_suppressor"),
+    MCX_HONEYBADGER_ANGLED_GRIP("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_angled_grip"),
+    MCX_HONEYBADGER_DEFAULT_STOCK("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_default_stock"),
+    MCX_HONEYBADGER_LIGHT_STOCK("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_light_stock"),
+    MCX_HONEYBADGER_MEDIUM_STOCK("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_medium_stock"),
+    MCX_HONEYBADGER_HEAVY_STOCK("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_heavy_stock"),
+    MCX_HONEYBADGER_ANTI_RECOIl_STOCK("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_anti_recoil_stock"),
+    MCX_HONEYBADGER_SKELETON_GRIP("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_skeleton_grip"),
+    MCX_HONEYBADGER_SUPPRESSOR("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_suppressor"),
+    MCX_HONEYBADGER_VERTICAL_GRIP("gun/assault_rifles/honeybadger/mcx_citrus_honeybadger_vertical_grip"),
+
+
+
 
 
     MK_MOD11("gun/assault_rifles/mkmod11/mkmod11"),

@@ -201,22 +201,6 @@
     ]
   },
 
-  "item.scar17hd.fire": {
-    "subtitle": "subtitle.stabxmodernguns.regular_fire",
-    "sounds": [
-      {
-        "name": "stabxmodernguns:item/scar17hd_fire"
-      }
-    ]
-  },
-  "item.scar17hd.cock": {
-    "subtitle": "subtitle.stabxmodernguns.cock",
-    "sounds": [
-      {
-        "name": "stabxmodernguns:item/scar17hd_cock"
-      }
-    ]
-  },
   "item.stg44.fire": {
     "subtitle": "subtitle.stabxmodernguns.regular_fire",
     "sounds": [

@@ -111,8 +111,7 @@ public class ModItemRegisteration {
             () -> new GunItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<GunItem> ACR_BUSHMASTER= ITEMS.register("acr_360_bushmaster",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<GunItem> SCAR17_HD= ITEMS.register("scar17hd",
-            () -> new GunItem(new Item.Properties().stacksTo(1)));
+
     public static final RegistryObject<GunItem> AUG556= ITEMS.register("aug556",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<GunItem> FAMAS_G7= ITEMS.register("famas_g7",
