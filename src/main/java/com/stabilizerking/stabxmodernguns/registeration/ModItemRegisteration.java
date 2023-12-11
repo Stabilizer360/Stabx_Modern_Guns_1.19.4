@@ -173,7 +173,8 @@ public class ModItemRegisteration {
     public static final RegistryObject<GunItem> SKS = ITEMS.register("sks",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
-
+    public static final RegistryObject<GunItem> HCAR762 = ITEMS.register("hcar762",
+            () -> new GunItem(new Item.Properties().stacksTo(1)));
 
 
 

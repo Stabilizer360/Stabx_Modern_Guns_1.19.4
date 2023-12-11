@@ -346,17 +346,69 @@ public enum SpecialModels {
 
 
 
+    HCAR762("gun/dmrs/hcar/hcar762"),
+    HCAR762_CHARGING_HANDLE("gun/dmrs/hcar/hcar762_charging_handle"),
+    HCAR762_IRONSIGHTS("gun/dmrs/hcar/hcar762_ironsights"),
+    HCAR762_IRONSIGHTS_MOUNT("gun/dmrs/hcar/hcar762_ironsights_mount"),
+    HCAR762_ADVANCED_MUZZLE("gun/dmrs/hcar/hcar762_advanced_muzzle"),
+    HCAR762_ADVANCED_SUPPRESSOR("gun/dmrs/hcar/hcar762_advanced_suppressor"),
+    HCAR762_ANGLED_GRIP("gun/dmrs/hcar/hcar762_angled_grip"),
+    HCAR762_DEFAULT_MUZZLE("gun/dmrs/hcar/hcar762_default_muzzle"),
+    HCAR762_SKELETON_GRIP("gun/dmrs/hcar/hcar762_skeleton_grip"),
+    HCAR762_SUPPRESSOR("gun/dmrs/hcar/hcar762_suppressor"),
+    HCAR762_VERTICAL_GRIP("gun/dmrs/hcar/hcar762_vertical_grip"),
+
+
+
+
+
+
+
 
     FAMAS_G7("gun/assault_rifles/famas/famas_g7"),
     FAMAS_G7_CHARGING_HANDLE("gun/assault_rifles/famas/famas_g7_charging_handle"),
     FAMAS_G7_IRONSIGHTS_MOUNT("gun/assault_rifles/famas/famas_g7_ironsights_mount"),
     FAMAS_G7_IRONSIGHTS("gun/assault_rifles/famas/famas_g7_ironsights"),
+    FAMAS_G7_ADVANCED_MUZZLE("gun/assault_rifles/famas/famas_g7_advanced_muzzle"),
+    FAMAS_G7_ADVANCED_SUPPRESSOR("gun/assault_rifles/famas/famas_g7_advanced_suppressor"),
+    FAMAS_G7_ANGLED_GRIP("gun/assault_rifles/famas/famas_g7_angled_grip"),
+    FAMAS_G7_BOLT_RELEASE("gun/assault_rifles/famas/famas_g7_bolt_release"),
+    FAMAS_G7_DEFAULT_MUZZLE("gun/assault_rifles/famas/famas_g7_default_muzzle"),
+    FAMAS_G7_HEAVY_STOCK("gun/assault_rifles/famas/famas_g7_heavy_stock"),
+    FAMAS_G7_LIGHT_STOCK("gun/assault_rifles/famas/famas_g7_light_stock"),
+    FAMAS_G7_MEDIUM_STOCK("gun/assault_rifles/famas/famas_g7_medium_stock"),
+    FAMAS_G7_ANTI_RECOIl_STOCK("gun/assault_rifles/famas/famas_g7_anti_recoil_stock"),
+    FAMAS_G7_SKELETON_GRIP("gun/assault_rifles/famas/famas_g7_skeleton_grip"),
+    FAMAS_G7_SUPPRESSOR("gun/assault_rifles/famas/famas_g7_suppressor"),
+    FAMAS_G7_VERTICAL_GRIP("gun/assault_rifles/famas/famas_g7_vertical_grip"),
+
+
+
+
 
 
 
     AUG556("gun/assault_rifles/aug/aug556"),
     AUG556_IRONSIGHTS_MOUNT("gun/assault_rifles/aug/aug556_ironsights_mount"),
     AUG556_IRONSIGHTS("gun/assault_rifles/aug/aug556_ironsights"),
+    AUG556_ADVANCED_MUZZLE("gun/assault_rifles/aug/aug556_advanced_muzzle"),
+    AUG556_ADVANCED_SUPPRESSOR("gun/assault_rifles/aug/aug556_advanced_suppressor"),
+    AUG556_ANGLED_GRIP("gun/assault_rifles/aug/aug556_angled_grip"),
+    AUG556_BOLT_RELEASE("gun/assault_rifles/aug/aug556_bolt_release"),
+    AUG556_DEFAULT_MUZZLE("gun/assault_rifles/aug/aug556_default_muzzle"),
+    AUG556_DEFAULT_STOCK("gun/assault_rifles/aug/aug556_default_stock"),
+    AUG556_HEAVY_STOCK("gun/assault_rifles/aug/aug556_heavy_stock"),
+    AUG556_LIGHT_STOCK("gun/assault_rifles/aug/aug556_light_stock"),
+    AUG556_MEDIUM_STOCK("gun/assault_rifles/aug/aug556_medium_stock"),
+    AUG556_ANTI_RECOIl_STOCK("gun/assault_rifles/aug/aug556_anti_recoil_stock"),
+    AUG556_SKELETON_GRIP("gun/assault_rifles/aug/aug556_skeleton_grip"),
+    AUG556_SUPPRESSOR("gun/assault_rifles/aug/aug556_suppressor"),
+    AUG556_VERTICAL_GRIP("gun/assault_rifles/aug/aug556_vertical_grip"),
+    AUG556_DEFAULT_GRIP("gun/assault_rifles/aug/aug556_default_grip"),
+
+
+
+
 
 
 

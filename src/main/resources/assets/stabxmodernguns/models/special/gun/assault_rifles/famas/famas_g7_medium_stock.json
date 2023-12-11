@@ -1,0 +1,792 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "stabxmodernguns:item/famas_g7"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [6.3625, 6.12218, 24.8],
+			"to": [6.525, 8.39032, 30.18125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.44375, 7.64688, 24.975]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [10.5, 3.875, 10.625, 4], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "texture": "#1"},
+				"west": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [6.25, 8.25, 6.5, 8.375], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [6.2022, 8.77731, 24.8],
+			"to": [7.72034, 8.93981, 30.18125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [6.94565, 8.85856, 24.975]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [6.25, 8.25, 6.5, 8.375], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 3.875, 10.625, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.43599, 9.30131, 24.8],
+			"to": [8.42288, 9.46381, 30.18125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.92943, 9.38256, 24.975]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [6.25, 8.25, 6.5, 8.375], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 3.875, 10.625, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.56099, 9.39506, 25.3],
+			"to": [8.29788, 9.55756, 29.68125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.92943, 9.38256, 24.975]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [6.25, 8.25, 6.5, 8.375], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 3.875, 10.625, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [6.52974, 9.67631, 25.3],
+			"to": [7.26663, 9.83881, 29.68125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.92944, 9.47631, 27.49063]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [6.25, 8.25, 6.5, 8.375], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 3.875, 10.625, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [6.26386, 6.67128, 25.3],
+			"to": [6.42636, 7.90817, 29.68125],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7.00136, 8.94598, 27.49063]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [10.5, 3.875, 10.625, 4], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "texture": "#1"},
+				"west": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [6.25, 8.25, 6.5, 8.375], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.97666, 10.23973, 25.3],
+			"to": [8.71355, 10.40223, 29.68125],
+			"rotation": {"angle": -45, "axis": "z", "origin": [7.00136, 8.94598, 27.49063]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [6.25, 8.25, 6.5, 8.375], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 3.875, 10.625, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.21185, 8.98335, 24.80741],
+			"to": [9.72999, 9.14585, 30.18866],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8.7053, 9.0646, 24.98241]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [6.25, 8.25, 6.5, 8.375], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10.5, 3.875, 10.625, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [9.32482, 6.0981, 24.80741],
+			"to": [9.48732, 8.39749, 30.18866],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.40607, 7.90404, 24.98241]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "texture": "#1"},
+				"east": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [10.5, 3.875, 10.625, 4], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [6.25, 8.25, 6.5, 8.375], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [8.25, 6.125, 8.5, 6.25], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.51875, 6.18468, 31.08125],
+			"to": [8.4, 7.70282, 31.4625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.56875, 6.0375, 28.69375]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [10.5, 3.875, 10.625, 4], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "texture": "#1"},
+				"west": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [6.25, 8.25, 6.5, 8.375], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.51875, 3.84093, 31.08125],
+			"to": [8.4, 5.35907, 31.4625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.56875, 6.0375, 28.69375]},
+			"faces": {
+				"north": {"uv": [8.5, 6.375, 8.25, 6.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [10.5, 3.875, 10.625, 4], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8.5, 6.375, 8.25, 6.25], "texture": "#1"},
+				"west": {"uv": [4, 10.5, 4.125, 10.625], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [8.25, 6.125, 8.5, 6.25], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [6.25, 8.25, 6.5, 8.375], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Famas g7",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "octagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "UnderBarrel Rail",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Default_muzzle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Famas g7",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "octagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "UnderBarrel Rail",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Default_muzzle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Famas g7",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "octagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "UnderBarrel Rail",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Default_muzzle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Famas g7",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "octagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": [
+								{
+									"name": "group",
+									"origin": [3.56875, 6.0375, 28.69375],
+									"color": 0,
+									"nbt": "{}",
+									"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+								},
+								{
+									"name": "group",
+									"origin": [3.56875, 6.0375, 28.69375],
+									"color": 0,
+									"nbt": "{}",
+									"children": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "UnderBarrel Rail",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Default_muzzle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,264 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"8": "stabxmodernguns:item/aug556"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [7.75772, 10.625, -9.325],
+			"to": [8.25478, 10.75625, -6.25625],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [4.625, 12, 4.6875, 12.0625], "texture": "#8"},
+				"south": {"uv": [4.75, 12, 4.8125, 12.0625], "texture": "#8"},
+				"up": {"uv": [4.9375, 12.0625, 4.875, 12], "texture": "#8"},
+				"down": {"uv": [12.0625, 4.875, 12, 4.9375], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.75772, 10.625, -9.325],
+			"to": [8.25478, 10.75625, -6.25625],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [5, 12, 5.0625, 12.0625], "texture": "#8"},
+				"south": {"uv": [5.125, 12, 5.1875, 12.0625], "texture": "#8"},
+				"up": {"uv": [5.3125, 12.0625, 5.25, 12], "texture": "#8"},
+				"down": {"uv": [12.0625, 5.25, 12, 5.3125], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.75772, 11.69375, -9.325],
+			"to": [8.25478, 11.825, -6.25625],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [5.375, 12, 5.4375, 12.0625], "texture": "#8"},
+				"south": {"uv": [5.5, 12, 5.5625, 12.0625], "texture": "#8"},
+				"up": {"uv": [5.6875, 12.0625, 5.625, 12], "texture": "#8"},
+				"down": {"uv": [12.0625, 5.625, 12, 5.6875], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.75772, 11.69375, -9.325],
+			"to": [8.25478, 11.825, -6.25625],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [5.75, 12, 5.8125, 12.0625], "texture": "#8"},
+				"south": {"uv": [5.875, 12, 5.9375, 12.0625], "texture": "#8"},
+				"up": {"uv": [6.0625, 12.0625, 6, 12], "texture": "#8"},
+				"down": {"uv": [12.0625, 6, 12, 6.0625], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.40625, 10.97647, -9.325],
+			"to": [7.5375, 11.47353, -6.25625],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [6.125, 12, 6.1875, 12.0625], "texture": "#8"},
+				"east": {"uv": [12, 6.125, 12.0625, 6.1875], "texture": "#8"},
+				"south": {"uv": [6.25, 12, 6.3125, 12.0625], "texture": "#8"},
+				"west": {"uv": [12, 6.25, 12.0625, 6.3125], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.40625, 10.97647, -9.325],
+			"to": [7.5375, 11.47353, -6.25625],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [6.5, 12, 6.5625, 12.0625], "texture": "#8"},
+				"east": {"uv": [12, 6.5, 12.0625, 6.5625], "texture": "#8"},
+				"south": {"uv": [6.625, 12, 6.6875, 12.0625], "texture": "#8"},
+				"west": {"uv": [12, 6.625, 12.0625, 6.6875], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.475, 10.97647, -9.325],
+			"to": [8.60625, 11.47353, -6.25625],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [6.875, 12, 6.9375, 12.0625], "texture": "#8"},
+				"east": {"uv": [12, 6.875, 12.0625, 6.9375], "texture": "#8"},
+				"south": {"uv": [7, 12, 7.0625, 12.0625], "texture": "#8"},
+				"west": {"uv": [12, 7, 12.0625, 7.0625], "texture": "#8"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.475, 10.97647, -9.325],
+			"to": [8.60625, 11.47353, -6.25625],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 11.225, -10.8375]},
+			"faces": {
+				"north": {"uv": [7.25, 12, 7.3125, 12.0625], "texture": "#8"},
+				"east": {"uv": [12, 7.25, 12.0625, 7.3125], "texture": "#8"},
+				"south": {"uv": [7.375, 12, 7.4375, 12.0625], "texture": "#8"},
+				"west": {"uv": [12, 7.375, 12.0625, 7.4375], "texture": "#8"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Steyr AUG 556",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "hexadecagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Black Stock Thingy",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		},
+		{
+			"name": "Trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "group",
+			"origin": [12.89063, 18.25719, 17.15728],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "USeless charging handle",
+			"origin": [7.59936, 28.66943, 4.82305],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "useless black line",
+			"origin": [7.85, 29.94375, 2.225],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "group",
+			"origin": [7.22752, 26.88301, 4.4793],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Iron sight Rails",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		}
+	]
+}

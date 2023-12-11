@@ -62,6 +62,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.RATNIK19.get(), new Ratnik19Model());
         ModelOverrides.register(ModItemRegisteration.SCAR17_HD.get(), new Scar17HDGunModel());
         ModelOverrides.register(ModItemRegisteration.SCAR_17.get(), new Scar17Model());
+        ModelOverrides.register(ModItemRegisteration.HCAR762.get(), new Hcar762model());
 
     }
 }

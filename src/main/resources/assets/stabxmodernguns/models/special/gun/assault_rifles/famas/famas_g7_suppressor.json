@@ -1,0 +1,253 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "stabxmodernguns:item/famas_g7"
+	},
+	"elements": [
+		{
+			"name": "octagon",
+			"from": [7.67488, 6.33125, -12.45],
+			"to": [8.33762, 6.63125, -6.475],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [2.25, 10.25, 2.375, 10.375], "texture": "#1"},
+				"south": {"uv": [2.375, 10.25, 2.5, 10.375], "texture": "#1"},
+				"up": {"uv": [2.625, 10.375, 2.5, 10.25], "texture": "#1"},
+				"down": {"uv": [10.375, 2.5, 10.25, 2.625], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.67488, 6.33125, -12.45],
+			"to": [8.33762, 6.63125, -6.475],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [2.625, 10.25, 2.75, 10.375], "texture": "#1"},
+				"south": {"uv": [2.75, 10.25, 2.875, 10.375], "texture": "#1"},
+				"up": {"uv": [3, 10.375, 2.875, 10.25], "texture": "#1"},
+				"down": {"uv": [10.375, 2.875, 10.25, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.67488, 7.63125, -12.45],
+			"to": [8.33762, 7.93125, -6.475],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [3, 10.25, 3.125, 10.375], "texture": "#1"},
+				"south": {"uv": [3.125, 10.25, 3.25, 10.375], "texture": "#1"},
+				"up": {"uv": [3.375, 10.375, 3.25, 10.25], "texture": "#1"},
+				"down": {"uv": [10.375, 3.25, 10.25, 3.375], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.67488, 7.63125, -12.45],
+			"to": [8.33762, 7.93125, -6.475],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [3.375, 10.25, 3.5, 10.375], "texture": "#1"},
+				"south": {"uv": [3.5, 10.25, 3.625, 10.375], "texture": "#1"},
+				"up": {"uv": [3.75, 10.375, 3.625, 10.25], "texture": "#1"},
+				"down": {"uv": [10.375, 3.625, 10.25, 3.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.20625, 6.79988, -12.45],
+			"to": [7.50625, 7.46262, -6.475],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [3.75, 10.25, 3.875, 10.375], "texture": "#1"},
+				"east": {"uv": [10.25, 3.75, 10.375, 3.875], "texture": "#1"},
+				"south": {"uv": [3.875, 10.25, 4, 10.375], "texture": "#1"},
+				"west": {"uv": [10.25, 3.875, 10.375, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [7.20625, 6.79988, -12.45],
+			"to": [7.50625, 7.46262, -6.475],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [4.125, 10.25, 4.25, 10.375], "texture": "#1"},
+				"east": {"uv": [10.25, 4.125, 10.375, 4.25], "texture": "#1"},
+				"south": {"uv": [4.25, 10.25, 4.375, 10.375], "texture": "#1"},
+				"west": {"uv": [10.25, 4.25, 10.375, 4.375], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.50625, 6.79988, -12.45],
+			"to": [8.80625, 7.46262, -6.475],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [4.5, 10.25, 4.625, 10.375], "texture": "#1"},
+				"east": {"uv": [10.25, 4.5, 10.375, 4.625], "texture": "#1"},
+				"south": {"uv": [4.625, 10.25, 4.75, 10.375], "texture": "#1"},
+				"west": {"uv": [10.25, 4.625, 10.375, 4.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "octagon",
+			"from": [8.50625, 6.79988, -12.45],
+			"to": [8.80625, 7.46262, -6.475],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.00625, 7.13125, -6.80625]},
+			"faces": {
+				"north": {"uv": [4.875, 10.25, 5, 10.375], "texture": "#1"},
+				"east": {"uv": [10.25, 4.875, 10.375, 5], "texture": "#1"},
+				"south": {"uv": [5, 10.25, 5.125, 10.375], "texture": "#1"},
+				"west": {"uv": [10.25, 5, 10.375, 5.125], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Famas g7",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Extra Details",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "octagon",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "UnderBarrel Rail",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Default_muzzle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [0, 1, 2, 3, 4, 5, 6, 7]
+				}
+			]
+		}
+	]
+}
