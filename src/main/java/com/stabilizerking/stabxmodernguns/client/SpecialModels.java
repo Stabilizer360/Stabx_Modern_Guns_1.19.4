@@ -590,10 +590,21 @@ public enum SpecialModels {
 
 
 
-    M_14("gun/dmrs/m14/m14"),
+    M14("gun/dmrs/m14/m14"),
     M14_IRONSIGHTS("gun/dmrs/m14/m14_ironsights"),
     M14_IRONSIGHTS_MOUNT("gun/dmrs/m14/m14_ironsights_mount"),
     M14_CHARGING_HANDLE("gun/dmrs/m14/m14_charging_handle"),
+    M14_ADVANCED_MUZZLE("gun/dmrs/m14/m14_advanced_muzzle"),
+    M14_ADVANCED_SUPPRESSOR("gun/dmrs/m14/m14_advanced_suppressor"),
+    M14_ANGLED_GRIP("gun/dmrs/m14/m14_angled_grip"),
+    M14_HEAVY_STOCK("gun/dmrs/m14/m14_heavy_stock"),
+    M14_LIGHT_STOCK("gun/dmrs/m14/m14_light_stock"),
+    M14_MEDIUM_STOCK("gun/dmrs/m14/m14_medium_stock"),
+    M14_ANTI_RECOIl_STOCK("gun/dmrs/m14/m14_anti_recoil_stock"),
+    M14_SKELETON_GRIP("gun/dmrs/m14/m14_skeleton_grip"),
+    M14_SUPPRESSOR("gun/dmrs/m14/m14_suppressor"),
+    M14_VERTICAL_GRIP("gun/dmrs/m14/m14_vertical_grip"),
+
 
 
     //------------------------------------------------------------------------Light Machine Guns--------------------------------------------------------
