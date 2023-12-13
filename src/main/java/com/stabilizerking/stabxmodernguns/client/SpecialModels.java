@@ -50,7 +50,18 @@ public enum SpecialModels {
     MP5_CLASSIC("gun/smgs/mp5_classic/mp5_classic"),
     MP5_CLASSIC_IRONSIGHTS("gun/smgs/mp5_classic/mp5_classic_ironsights"),
     MP5_CLASSIC_IRONSIGHTS_MOUNT("gun/smgs/mp5_classic/mp5_classic_ironsights_mount"),
-
+    MP5_CLASSIC_ADVANCED_MUZZLE("gun/smgs/mp5_classic/mp5_classic_advanced_muzzle"),
+    MP5_CLASSIC_ADVANCED_SUPPRESSER("gun/smgs/mp5_classic/mp5_classic_advanced_suppressor"),
+    MP5_CLASSIC_ANGLED_GRIP("gun/smgs/mp5_classic/mp5_classic_angled_grip"),
+    MP5_CLASSIC_DEFAULT_STOCK("gun/smgs/mp5_classic/mp5_classic_default_stock"),
+    MP5_CLASSIC_HEAVY_STOCK("gun/smgs/mp5_classic/mp5_classic_heavy_stock"),
+    MP5_CLASSIC_LIGHT_STOCK("gun/smgs/mp5_classic/mp5_classic_light_stock"),
+    MP5_CLASSIC_MEDIUM_STOCK("gun/smgs/mp5_classic/mp5_classic_medium_stock"),
+    MP5_CLASSIC_ANTI_RECOIl_STOCK("gun/smgs/mp5_classic/mp5_classic_anti_recoil_stock"),
+    MP5_CLASSIC_SKELETON_GRIP("gun/smgs/mp5_classic/mp5_classic_skeleton_grip"),
+    MP5_CLASSIC_SUPPRESSOR("gun/smgs/mp5_classic/mp5_classic_suppressor"),
+    MP5_CLASSIC_VERTICAL_GRIP("gun/smgs/mp5_classic/mp5_classic_vertical_grip"),
+    MP5_CLASSIC_BOLT_RELEASE("gun/smgs/mp5_classic/mp5_classic_bolt_release"),
 
 
 
@@ -585,7 +596,17 @@ public enum SpecialModels {
     SKS_IRONSIGHTS("gun/dmrs/sks/sks_ironsights"),
     SKS_IRONSIGHTS_MOUNT("gun/dmrs/sks/sks_ironsights_mount"),
     SKS_CHARGING_HANDLE("gun/dmrs/sks/sks_charging_handle"),
-
+    SKS_ADVANCED_MUZZLE("gun/dmrs/sks/sks_advanced_muzzle"),
+    SKS_ADVANCED_SUPPRESSOR("gun/dmrs/sks/sks_advanced_suppressor"),
+    SKS_ANGLED_GRIP("gun/dmrs/sks/sks_angled_grip"),
+    SKS_DEFAULT_STOCK("gun/dmrs/sks/sks_default_stock"),
+    SKS_HEAVY_STOCK("gun/dmrs/sks/sks_heavy_stock"),
+    SKS_LIGHT_STOCK("gun/dmrs/sks/sks_light_stock"),
+    SKS_MEDIUM_STOCK("gun/dmrs/sks/sks_medium_stock"),
+    SKS_ANTI_RECOIl_STOCK("gun/dmrs/sks/sks_anti_recoil_stock"),
+    SKS_SKELETON_GRIP("gun/dmrs/sks/sks_skeleton_grip"),
+    SKS_SUPPRESSOR("gun/dmrs/sks/sks_suppressor"),
+    SKS_VERTICAL_GRIP("gun/dmrs/sks/sks_vertical_grip"),
 
 
 

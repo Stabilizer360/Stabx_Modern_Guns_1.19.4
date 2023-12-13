@@ -5,11 +5,11 @@
 		"gripType": "cgm:two_handed",
 		"maxAmmo": 30,
 		"reloadAmount": 10,
-		"recoilAngle": 1,
-		"recoilKick": 0.8,
+		"recoilAngle": 2,
+		"recoilKick": 1.4,
 		"recoilAdsReduction": 0.5,
 		"alwaysSpread": true,
-		"spread": 2.0
+		"spread": 1.5
 	},
 	"projectile": {
 		"item": "stabxmodernguns:9mm",
@@ -47,12 +47,17 @@
 			"barrel": {
 				"yOffset": 2.6,
 				"zOffset": -9,
-				"scale": 0.4
+				"scale": 0
 			},
 			"underBarrel": {
 				"yOffset": 1.7,
 				"zOffset": -3.5,
-				"scale": 0.75
+				"scale": 0
+			},
+			"stock": {
+				"yOffset": 2.4,
+				"zOffset": 9,
+				"scale": 0
 			}
 		}
 	}

@@ -5,9 +5,9 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 10,
     "reloadAmount": 5,
-    "recoilKick": 0.7,
-    "recoilAngle": 3,
-    "recoilAdsReduction": 0.3,
+    "recoilKick": 1.4,
+    "recoilAngle": 10,
+    "recoilAdsReduction": 0.5,
     "alwaysSpread": false,
     "spread": 1
   },
@@ -16,8 +16,8 @@
     "visible": false,
     "damage": 15,
     "size": 0.2,
-    "speed": 50.0,
-    "life": 40
+    "speed": 70.0,
+    "life": 156
   },
   "sounds": {
     "fire": "stabxmodernguns:item.sks.fire",
@@ -46,13 +46,18 @@
       "barrel": {
         "yOffset": 4.4,
         "zOffset": -20,
-        "scale": 0.4
+        "scale": 0
       },
       "underBarrel": {
         "yOffset": 3.1,
         "zOffset": -1.5,
-        "scale": 0.75
-      }
+        "scale": 0
+      },
+	"stock": {
+	"yOffset": 2.4,
+	"zOffset": 9,
+	"scale": 0
+     }
     }
   }
 }
