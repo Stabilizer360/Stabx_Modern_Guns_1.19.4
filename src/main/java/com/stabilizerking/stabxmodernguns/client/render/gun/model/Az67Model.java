@@ -122,7 +122,7 @@ public class Az67Model implements IOverrideModel {
 
         }
 
-        //In case of the any attachment is not putted
+        //In case of any attachment is not putted
         else {
             RenderUtil.renderModel(SpecialModels.AZ67_DEFAULT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }

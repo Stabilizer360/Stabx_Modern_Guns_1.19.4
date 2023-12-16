@@ -67,7 +67,19 @@ public enum SpecialModels {
 
 
     STRIKER45("gun/smgs/striker45/striker45"),
+    STRIKER45_ADVANCED_MUZZLE("gun/smgs/striker45/striker45_advanced_muzzle"),
+    STRIKER45_ADVANCED_SUPPRESSOR("gun/smgs/striker45/striker45_advanced_suppressor"),
 
+    STRIKER45_BOLT_RELEASE("gun/smgs/striker45/striker45_bolt_release"),
+    STRIKER45_ANGLED_GRIP("gun/smgs/striker45/striker45_angled_grip"),
+    STRIKER45_DEFAULT_STOCK("gun/smgs/striker45/striker45_default_stock"),
+    STRIKER45_HEAVY_STOCK("gun/smgs/striker45/striker45_heavy_stock"),
+    STRIKER45_LIGHT_STOCK("gun/smgs/striker45/striker45_light_stock"),
+    STRIKER45_MEDIUM_STOCK("gun/smgs/striker45/striker45_medium_stock"),
+    STRIKER45_ANTI_RECOIl_STOCK("gun/smgs/striker45/striker45_anti_recoil_stock"),
+    STRIKER45_SKELETON_GRIP("gun/smgs/striker45/striker45_skeleton_grip"),
+    STRIKER45_SUPPRESSOR("gun/smgs/striker45/striker45_suppressor"),
+    STRIKER45_VERTICAL_GRIP("gun/smgs/striker45/striker45_vertical_grip"),
 
 
 
@@ -89,7 +101,18 @@ public enum SpecialModels {
     KRISS_VECTOR45_CHARGING_HANDLE("gun/smgs/vector45/kriss_vector45_charging_handle"),
     KRISS_VECTOR45_IRONSIGHTS("gun/smgs/vector45/kriss_vector45_ironsights"),
     KRISS_VECTOR45_IRONSIGHTS_MOUNT("gun/smgs/vector45/kriss_vector45_ironsights_mount"),
-
+    KRISS_VECTOR45_ADVANCED_MUZZLE("gun/smgs/vector45/kriss_vector45_advanced_muzzle"),
+    KRISS_VECTOR45_ADVANCED_SUPPRESSOR("gun/smgs/vector45/kriss_vector45_advanced_suppressor"),
+    KRISS_VECTOR45_ANGLED_GRIP("gun/smgs/vector45/kriss_vector45_angled_grip"),
+    KRISS_VECTOR45_DEFAULT_GRIP("gun/smgs/vector45/kriss_vector45_default_grip"),
+    KRISS_VECTOR45_DEFAULT_STOCK("gun/smgs/vector45/kriss_vector45_default_stock"),
+    KRISS_VECTOR45_HEAVY_STOCK("gun/smgs/vector45/kriss_vector45_heavy_stock"),
+    KRISS_VECTOR45_LIGHT_STOCK("gun/smgs/vector45/kriss_vector45_light_stock"),
+    KRISS_VECTOR45_MEDIUM_STOCK("gun/smgs/vector45/kriss_vector45_medium_stock"),
+    KRISS_VECTOR45_ANTI_RECOIl_STOCK("gun/smgs/vector45/kriss_vector45_anti_recoil_stock"),
+    KRISS_VECTOR45_SKELETON_GRIP("gun/smgs/vector45/kriss_vector45_skeleton_grip"),
+    KRISS_VECTOR45_SUPPRESSOR("gun/smgs/vector45/kriss_vector45_suppressor"),
+    KRISS_VECTOR45_VERTICAL_GRIP("gun/smgs/vector45/kriss_vector45_vertical_grip"),
 
 
 
@@ -97,7 +120,18 @@ public enum SpecialModels {
     ZXR_MP7("gun/smgs/mp7/zxr_mp7"),
     ZXR_MP7_IRONSIGHTS("gun/smgs/mp7/zxr_mp7_ironsights"),
     ZXR_MP7_IRONSIGHTS_MOUNT("gun/smgs/mp7/zxr_mp7_ironsights_mount"),
-
+    ZXR_MP7_ADVANCED_MUZZLE("gun/smgs/mp7/zxr_mp7_advanced_muzzle"),
+    ZXR_MP7_ADVANCED_SUPPRESSOR("gun/smgs/striker45/striker45_advanced_suppressor"),
+    ZXR_MP7_ANGLED_GRIP("gun/smgs/mp7/zxr_mp7_angled_grip"),
+    ZXR_MP7_DEFAULT_MUZZLE("gun/smgs/mp7/zxr_mp7_default_muzzle"),
+    ZXR_MP7_DEFAULT_STOCK("gun/smgs/mp7/zxr_mp7_default_stock"),
+    ZXR_MP7_HEAVY_STOCK("gun/smgs/mp7/zxr_mp7_heavy_stock"),
+    ZXR_MP7_LIGHT_STOCK("gun/smgs/mp7/zxr_mp7_light_stock"),
+    ZXR_MP7_MEDIUM_STOCK("gun/smgs/mp7/zxr_mp7_medium_stock"),
+    ZXR_MP7_ANTI_RECOIl_STOCK("gun/smgs/mp7/zxr_mp7_anti_recoil_stock"),
+    ZXR_MP7_SKELETON_GRIP("gun/smgs/mp7/zxr_mp7_skeleton_grip"),
+    ZXR_MP7_SUPPRESSOR("gun/smgs/mp7/zxr_mp7_suppressor"),
+    ZXR_MP7_VERTICAL_GRIP("gun/smgs/mp7/zxr_mp7_vertical_grip"),
 
 
 
@@ -567,12 +601,30 @@ public enum SpecialModels {
     BARRETT_M82_CHARGING_HANDLE("gun/sniper_rifles/m82/barrett_m82_sniper_charging_handle"),
     BARRETT_M82_IRONSIGHTS("gun/sniper_rifles/m82/barrett_m82_sniper_ironsights"),
     BARRETT_M82_IRONSIGHTS_MOUNT("gun/sniper_rifles/m82/barrett_m82_sniper_ironsights_mount"),
+    BARRETT_M82_ANGLED_GRIP("gun/sniper_rifles/m82/barrett_m82_sniper_angled_grip"),
+    BARRETT_M82_DEFAULT_STOCK("gun/sniper_rifles/m82/barrett_m82_sniper_default_stock"),
+    BARRETT_M82_HEAVY_STOCK("gun/sniper_rifles/m82/barrett_m82_sniper_heavy_stock"),
+    BARRETT_M82_LIGHT_STOCK("gun/sniper_rifles/m82/barrett_m82_sniper_light_stock"),
+    BARRETT_M82_MEDIUM_STOCK("gun/sniper_rifles/m82/barrett_m82_sniper_medium_stock"),
+    BARRETT_M82_ANTI_RECOIl_STOCK("gun/sniper_rifles/m82/barrett_m82_sniper_anti_recoil_stock"),
+    BARRETT_M82_SKELETON_GRIP("gun/sniper_rifles/m82/barrett_m82_sniper_skeleton_grip"),
+    BARRETT_M82_VERTICAL_GRIP("gun/sniper_rifles/m82/barrett_m82_sniper_vertical_grip"),
 
 
 
-    SPR_3608("gun/sniper_rifles/spr/spr3608"),
-    SPR_3608_BOLT("gun/sniper_rifles/spr/spr3608_bolt"),
-
+    SPR("gun/sniper_rifles/spr/spr3608"),
+    SPR_BOLT("gun/sniper_rifles/spr/spr3608_bolt"),
+    SPR_ADVANCED_MUZZLE("gun/sniper_rifles/awm/artic_warfare_magnum_advanced_muzzle"),
+    SPR_ADVANCED_SUPPRESSOR("gun/sniper_rifles/awm/artic_warfare_magnum_advanced_suppressor"),
+    SPR_ANGLED_GRIP("gun/sniper_rifles/awm/artic_warfare_magnum_angled_grip"),
+    SPR_DEFAULT_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_default_stock"),
+    SPR_HEAVY_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_heavy_stock"),
+    SPR_LIGHT_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_light_stock"),
+    SPR_MEDIUM_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_medium_stock"),
+    SPR_ANTI_RECOIl_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_anti_recoil_stock"),
+    SPR_SKELETON_GRIP("gun/sniper_rifles/awm/artic_warfare_magnum_skeleton_grip"),
+    SPR_SUPPRESSOR("gun/sniper_rifles/awm/artic_warfare_magnum_suppressor"),
+    SPR_VERTICAL_GRIP("gun/sniper_rifles/awm/artic_warfare_magnum_vertical_grip"),
 
 
     DRAGNAOV_SVD("gun/sniper_rifles/svd_dragnaov/dragnaov_svd"),
@@ -585,6 +637,18 @@ public enum SpecialModels {
     ARTIC_WARFARE_MAGNUM("gun/sniper_rifles/awm/artic_warfare_magnum"),
     ARTIC_WARFARE_MAGNUM_BOLT("gun/sniper_rifles/awm/artic_warfare_magnum_bolt"),
     ARTIC_WARFARE_MAGNUM_BOLT_CHAMBER("gun/sniper_rifles/awm/artic_warfare_magnum_bolt_chamber"),
+
+    ARTIC_WARFARE_MAGNUM_ADVANCED_MUZZLE("gun/sniper_rifles/awm/artic_warfare_magnum_advanced_muzzle"),
+    ARTIC_WARFARE_MAGNUM_ADVANCED_SUPPRESSOR("gun/sniper_rifles/awm/artic_warfare_magnum_advanced_suppressor"),
+    ARTIC_WARFARE_MAGNUM_ANGLED_GRIP("gun/sniper_rifles/awm/artic_warfare_magnum_angled_grip"),
+    ARTIC_WARFARE_MAGNUM_DEFAULT_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_default_stock"),
+    ARTIC_WARFARE_MAGNUM_HEAVY_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_heavy_stock"),
+    ARTIC_WARFARE_MAGNUM_LIGHT_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_light_stock"),
+    ARTIC_WARFARE_MAGNUM_MEDIUM_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_medium_stock"),
+    ARTIC_WARFARE_MAGNUM_ANTI_RECOIl_STOCK("gun/sniper_rifles/awm/artic_warfare_magnum_anti_recoil_stock"),
+    ARTIC_WARFARE_MAGNUM_SKELETON_GRIP("gun/sniper_rifles/awm/artic_warfare_magnum_skeleton_grip"),
+    ARTIC_WARFARE_MAGNUM_SUPPRESSOR("gun/sniper_rifles/awm/artic_warfare_magnum_suppressor"),
+    ARTIC_WARFARE_MAGNUM_VERTICAL_GRIP("gun/sniper_rifles/awm/artic_warfare_magnum_vertical_grip"),
 
 
     REMINGTON360("gun/sniper_rifles/remington360/remington360"),

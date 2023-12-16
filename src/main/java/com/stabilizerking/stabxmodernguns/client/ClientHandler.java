@@ -13,7 +13,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.GLOCK_19_C.get(), new Glock19cModel());
         ModelOverrides.register(ModItemRegisteration.DESERT_EAGLE_MARK_14.get(), new Deaglemk14Model());
         ModelOverrides.register(ModItemRegisteration.MP5_CLASSIC.get(), new Mp5GunModel());
-        ModelOverrides.register(ModItemRegisteration.STRIKER45.get(), new SimpleModel(SpecialModels.STRIKER45::getModel));
+        ModelOverrides.register(ModItemRegisteration.STRIKER45.get(), new Striker_45Model());
         ModelOverrides.register(ModItemRegisteration.MP40.get(), new Mp40GunModel());
         ModelOverrides.register(ModItemRegisteration.TEC9.get(), new SimpleModel(SpecialModels.TEC9::getModel));
         ModelOverrides.register(ModItemRegisteration.HK416.get(), new Hk416Model());
@@ -26,7 +26,7 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.AA_12UX.get(),  new AA12UxModel());
         ModelOverrides.register(ModItemRegisteration.ARISAKA_TYPE_99.get(), new ArisakaType99GunModel());
         ModelOverrides.register(ModItemRegisteration.ARTIC_WARFARE_MAGNUM.get(), new AWMRifleModel());
-        ModelOverrides.register(ModItemRegisteration.BARRETT_M82.get(), new M82GunModel());
+        ModelOverrides.register(ModItemRegisteration.BARRETT_M82.get(), new M82SniperModel());
         ModelOverrides.register(ModItemRegisteration.MK_170_CROSSBOW.get(), new SimpleModel(SpecialModels.MK_170_CROSSBOW::getModel));
         ModelOverrides.register(ModItemRegisteration.FAMAS_G7.get(), new FamasG7GunModel());
         ModelOverrides.register(ModItemRegisteration.KAR98K.get(), new Kar98kRifleModel());
