@@ -39,7 +39,7 @@ public class GK57Model implements IOverrideModel {
             RenderUtil.renderModel(SpecialModels.GK57_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
-            RenderUtil.renderModel(SpecialModels.GK57_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GK57_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
             RenderUtil.renderModel(SpecialModels.GK57_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);

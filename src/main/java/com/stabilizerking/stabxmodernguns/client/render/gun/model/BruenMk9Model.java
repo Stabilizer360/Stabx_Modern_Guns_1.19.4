@@ -4,7 +4,10 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.init.ModItems;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import com.stabilizerking.stabxmodernguns.client.SpecialModels;
+import com.stabilizerking.stabxmodernguns.registeration.ModItemRegisteration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
@@ -30,6 +33,54 @@ public class BruenMk9Model implements IOverrideModel {
         } else {
             RenderUtil.renderModel(SpecialModels.BRUEN_MK9_IRONSIGHTS_MOUNT.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
+
+
+
+        //------------------------------------------------------------ Gun Barrel part--------------------------------------------------------------------//
+        // First we will do a barrel IF this works
+        if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        //In case of the any attachment is not putted
+        else {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_DEFAULT_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+        //------------------------------------------------------------ Under Barrel part--------------------------------------------------------------------//
+
+        //First it will render the default barrel . if any attachment is putted  it wil render the specific sttachment
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.ANGLED_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.SKELETON_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_SKELETON_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.VERTICAL_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        // Now the parts from when you put from Mrcrayfishes fun mod it will just show the default models so I dont waste my more time  in deveploment
+
+        //Even if you put the Light grip attachment from CGM gun mod it will still render the same model :))) becuase i set it that way
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.SPECIALISED_GRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.BRUEN_MK9_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+
+
 
 
         matrix.pushPose();

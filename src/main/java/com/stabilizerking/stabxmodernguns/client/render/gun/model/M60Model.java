@@ -4,7 +4,10 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.init.ModItems;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import com.stabilizerking.stabxmodernguns.client.SpecialModels;
+import com.stabilizerking.stabxmodernguns.registeration.ModItemRegisteration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
@@ -21,7 +24,7 @@ public class M60Model implements IOverrideModel {
         //This is a Main Gun Model.
 
         //This is a Main Gun Model.
-        RenderUtil.renderModel(SpecialModels.M_SIXTY.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.M60.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         //So I wanna make the Iron Sights Go Disappear so in that case imma doing a RenderModel method.In here we use two diffrent models that will render on a stupid gun
 
@@ -30,6 +33,49 @@ public class M60Model implements IOverrideModel {
         } else {
             RenderUtil.renderModel(SpecialModels.M60_IRONSIGHTS_FLIPPED.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
+
+
+
+        //------------------------------------------------------------ Gun Barrel part--------------------------------------------------------------------//
+        // First we will do a barrel IF this works
+        if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+
+        } if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        }  if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+
+        //------------------------------------------------------------ Under Barrel part--------------------------------------------------------------------//
+
+        //First it will render the default barrel . if any attachment is putted  it wil render the specific sttachment
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.ANGLED_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.SKELETON_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_SKELETON_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItemRegisteration.VERTICAL_FOREGRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+        // Rendering from Mrcrayfish gun mod itself
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_ANGLED_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+        if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.SPECIALISED_GRIP.get()) {
+            RenderUtil.renderModel(SpecialModels.M60_VERTICAL_GRIP.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
 
 
         matrix.pushPose();

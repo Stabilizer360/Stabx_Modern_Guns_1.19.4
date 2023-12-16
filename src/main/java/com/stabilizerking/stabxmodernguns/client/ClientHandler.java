@@ -7,13 +7,13 @@ import com.stabilizerking.stabxmodernguns.registeration.ModItemRegisteration;
 
 public class ClientHandler {
     public static void registerModelOverrides() {
-        ModelOverrides.register(ModItemRegisteration.M1_GRANDE.get(), new M1GarandRifleModel());
+        ModelOverrides.register(ModItemRegisteration.M1_GRANDE.get(), new M1Garand_Remake());
         ModelOverrides.register(ModItemRegisteration.M4.get(),  new M4Model());
         ModelOverrides.register(ModItemRegisteration.FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON.get(), new SimpleModel(SpecialModels.FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON::getModel));
         ModelOverrides.register(ModItemRegisteration.GLOCK_19_C.get(), new Glock19cModel());
         ModelOverrides.register(ModItemRegisteration.DESERT_EAGLE_MARK_14.get(), new Deaglemk14Model());
         ModelOverrides.register(ModItemRegisteration.MP5_CLASSIC.get(), new Mp5GunModel());
-        ModelOverrides.register(ModItemRegisteration.STRIKER45.get(), new SimpleModel(SpecialModels.STRIKER45::getModel));
+        ModelOverrides.register(ModItemRegisteration.STRIKER45.get(), new Striker_45Model());
         ModelOverrides.register(ModItemRegisteration.MP40.get(), new Mp40GunModel());
         ModelOverrides.register(ModItemRegisteration.TEC9.get(), new SimpleModel(SpecialModels.TEC9::getModel));
         ModelOverrides.register(ModItemRegisteration.HK416.get(), new Hk416Model());
@@ -26,18 +26,18 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.AA_12UX.get(),  new AA12UxModel());
         ModelOverrides.register(ModItemRegisteration.ARISAKA_TYPE_99.get(), new ArisakaType99GunModel());
         ModelOverrides.register(ModItemRegisteration.ARTIC_WARFARE_MAGNUM.get(), new AWMRifleModel());
-        ModelOverrides.register(ModItemRegisteration.BARRETT_M82.get(), new M82GunModel());
+        ModelOverrides.register(ModItemRegisteration.BARRETT_M82.get(), new M82SniperModel());
         ModelOverrides.register(ModItemRegisteration.MK_170_CROSSBOW.get(), new SimpleModel(SpecialModels.MK_170_CROSSBOW::getModel));
         ModelOverrides.register(ModItemRegisteration.FAMAS_G7.get(), new FamasG7GunModel());
         ModelOverrides.register(ModItemRegisteration.KAR98K.get(), new Kar98kRifleModel());
         ModelOverrides.register(ModItemRegisteration.COLT_M1911A1.get(), new M1911A1GunModel());
-        ModelOverrides.register(ModItemRegisteration.AUG556.get(), new Aug556GunModel());
+        ModelOverrides.register(ModItemRegisteration.AUG556.get(), new Aug556());
         ModelOverrides.register(ModItemRegisteration.MCX_HONEYBADGER.get(), new McxHoneybadgerModel());
         ModelOverrides.register(ModItemRegisteration.ZXR_MP7.get(), new Mp7Model());
         ModelOverrides.register(ModItemRegisteration.SPR_3608.get(), new SprSniperRifleModel());
         ModelOverrides.register(ModItemRegisteration.SKS.get(), new SksMarksmanModel());
         ModelOverrides.register(ModItemRegisteration.M14.get(), new M14GunModel());
-        ModelOverrides.register(ModItemRegisteration.M_60.get(), new M60Model());
+        ModelOverrides.register(ModItemRegisteration.M60.get(), new M60Model());
         ModelOverrides.register(ModItemRegisteration.BAREETA67.get(), new Bareeta67Model());
         ModelOverrides.register(ModItemRegisteration.MODERN_GK57.get(), new GK57Model());
         ModelOverrides.register(ModItemRegisteration.AKS_74.get(), new AKs74Model());
@@ -55,13 +55,15 @@ public class ClientHandler {
         ModelOverrides.register(ModItemRegisteration.RPK.get(), new RpkModel());
         ModelOverrides.register(ModItemRegisteration.M1_GARAND_REMAKE.get(), new M1GarandRemakeModel());
         ModelOverrides.register(ModItemRegisteration.VECTOR45.get(), new KrissVector45Model());
-        ModelOverrides.register(ModItemRegisteration.STG44.get(), new Stg44Model());
+        ModelOverrides.register(ModItemRegisteration.STG44.get(), new Stg44());
         ModelOverrides.register(ModItemRegisteration.DRAGNAOV_SVD.get(), new DragnaovSVDModel());
         ModelOverrides.register(ModItemRegisteration.AK_103.get(), new AK103Model());
         ModelOverrides.register(ModItemRegisteration.AZ67.get(), new Az67Model());
         ModelOverrides.register(ModItemRegisteration.RATNIK19.get(), new Ratnik19Model());
         ModelOverrides.register(ModItemRegisteration.SCAR_17.get(), new Scar17Model());
         ModelOverrides.register(ModItemRegisteration.HCAR762.get(), new Hcar762model());
-
+        ModelOverrides.register(ModItemRegisteration.RO678X.get(), new Ro678_M4_SMG_model());
+        ModelOverrides.register(ModItemRegisteration.SVCH545.get(), new SVCH545_Sniper());
+        ModelOverrides.register(ModItemRegisteration.AKX117.get(), new Akx117_DopeMan_edition());
     }
 }

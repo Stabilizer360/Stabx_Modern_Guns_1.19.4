@@ -69,6 +69,7 @@ public class StabxModernGuns {
             gunItems.add(ModItemRegisteration.STRIKER45.get());
             gunItems.add(ModItemRegisteration.ZXR_MP7.get());
             gunItems.add(ModItemRegisteration.VECTOR45.get());
+            gunItems.add(ModItemRegisteration.RO678X.get());
 
             for (GunItem gun : gunItems) {
                 event.accept(StabxModUtils.gunWithoutBar(gun));
@@ -100,6 +101,7 @@ public class StabxModernGuns {
             gunItems.add(ModItemRegisteration.AK_103.get());
             gunItems.add(ModItemRegisteration.AZ67.get());
             gunItems.add(ModItemRegisteration.RATNIK19.get());
+            gunItems.add(ModItemRegisteration.AKX117.get());
 
             for (GunItem gun : gunItems) {
                 event.accept(StabxModUtils.gunWithoutBar(gun));
@@ -121,7 +123,7 @@ public class StabxModernGuns {
             }
         }
 
-        //----------------------------------------------------Rifles-------------------------------------------------------------------------------//
+        //----------------------------------------------------MARSKMAN Rifles-------------------------------------------------------------------------------//
 
         if (event.getTab() == StabxCreativeModeTab.STABX_DMRS_GROUP) {
             List<GunItem> gunItems = new ArrayList<>();
@@ -145,6 +147,7 @@ public class StabxModernGuns {
             gunItems.add(ModItemRegisteration.SPR_3608.get());
             gunItems.add(ModItemRegisteration.REMINGTON360.get());
             gunItems.add(ModItemRegisteration.DRAGNAOV_SVD.get());
+            gunItems.add(ModItemRegisteration.SVCH545.get());
 
             for (GunItem gun : gunItems) {
                 event.accept(StabxModUtils.gunWithoutBar(gun));
@@ -171,7 +174,7 @@ public class StabxModernGuns {
         if (event.getTab() == StabxCreativeModeTab.STABX_LMGS_GROUP) {
             List<GunItem> gunItems = new ArrayList<>();
 
-            gunItems.add(ModItemRegisteration.M_60.get());
+            gunItems.add(ModItemRegisteration.M60.get());
             gunItems.add(ModItemRegisteration.RPK.get());
             gunItems.add(ModItemRegisteration.BRUEN_MK9.get());
 

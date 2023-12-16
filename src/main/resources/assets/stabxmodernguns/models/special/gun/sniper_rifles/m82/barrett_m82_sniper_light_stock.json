@@ -1,0 +1,237 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "stabxmodernguns:item/barret_m82_sniper"
+	},
+	"elements": [
+		{
+			"from": [7.78125, 3.43769, 17.83996],
+			"to": [8.21875, 4.31269, 21.21496],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 2.57831, 22.55871]},
+			"faces": {
+				"east": {"uv": [5, 6.625, 5.125, 6.875], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [1, 6.75, 1.125, 7], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [6.25, 6.625, 6.375, 6.875], "texture": "#1"},
+				"down": {"uv": [4.375, 6.625, 4.5, 6.875], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.78125, 3.43769, 20.33996],
+			"to": [8.21875, 3.75019, 22.24621],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.57831, 22.55871]},
+			"faces": {
+				"east": {"uv": [5, 6.625, 5.125, 6.875], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [1, 6.75, 1.125, 7], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [6.25, 6.625, 6.375, 6.875], "texture": "#1"},
+				"down": {"uv": [4.375, 6.625, 4.5, 6.875], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.78125, 2.82545, 22.31035],
+			"to": [8.21875, 3.76295, 22.62285],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 2.80982, 22.4666]},
+			"faces": {
+				"north": {"uv": [4.375, 6.625, 4.5, 6.875], "texture": "#1"},
+				"east": {"uv": [5, 6.625, 5.125, 6.875], "texture": "#1"},
+				"south": {"uv": [6.25, 6.625, 6.375, 6.875], "texture": "#1"},
+				"west": {"uv": [1, 6.75, 1.125, 7], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.78125, 2.76446, 22.31626],
+			"to": [8.21875, 3.07696, 22.84751],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 2.92071, 23.26939]},
+			"faces": {
+				"east": {"uv": [5, 6.625, 5.125, 6.875], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [1, 6.75, 1.125, 7], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [6.25, 6.625, 6.375, 6.875], "texture": "#1"},
+				"down": {"uv": [4.375, 6.625, 4.5, 6.875], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.78125, 3.43769, 21.08996],
+			"to": [8.21875, 4.31269, 21.21496],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 3.92207, 21.05871]},
+			"faces": {
+				"north": {"uv": [6.25, 6.625, 6.375, 6.875], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [5, 6.625, 5.125, 6.875], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [4.375, 6.625, 4.5, 6.875], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [1, 6.75, 1.125, 7], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.78125, 2.57696, 22.72251],
+			"to": [8.21875, 3.07696, 25.37876],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.71759, 22.69126]},
+			"faces": {
+				"north": {"uv": [6.25, 6.625, 6.375, 6.875], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [5, 6.625, 5.125, 6.875], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [4.375, 6.625, 4.5, 6.875], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [1, 6.75, 1.125, 7], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.78125, 2.57696, 22.72251],
+			"to": [8.21875, 3.07696, 25.37876],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8.03125, 2.85821, 24.05064]},
+			"faces": {
+				"north": {"uv": [6.25, 6.625, 6.375, 6.875], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [4.375, 6.625, 4.5, 6.875], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [5, 6.625, 5.125, 6.875], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [1, 6.75, 1.125, 7], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.78125, 2.87519, 22.71496],
+			"to": [8.21875, 4.31269, 23.02746],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.92207, 21.05871]},
+			"faces": {
+				"north": {"uv": [6.25, 6.625, 6.375, 6.875], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [5, 6.625, 5.125, 6.875], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [4.375, 6.625, 4.5, 6.875], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [1, 6.75, 1.125, 7], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Ronnie_Barrel M82",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Main Body",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "group",
+					"origin": [8, 3.92207, 21.05871],
+					"color": 0,
+					"nbt": "{}",
+					"children": [0, 1, 2, 3, 4, 5, 6, 7]
+				}
+			]
+		},
+		{
+			"name": "Magazine Boi",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Shoulder Stock",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Iron Sights",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Trigger",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "SImple Bipoid",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "Iron Sights",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "Iron Sights",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				},
+				{
+					"name": "Iron Sights",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [
+						{
+							"name": "Iron Sights",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "octagon",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "Final iron sights",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		}
+	]
+}

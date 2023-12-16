@@ -40,7 +40,7 @@ public class Aks74uxModel implements IOverrideModel {
             RenderUtil.renderModel(SpecialModels.AKS_74UX_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
-            RenderUtil.renderModel(SpecialModels.AKS_74UX_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.AKS_74UX_ADVACNED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
             RenderUtil.renderModel(SpecialModels.AKS_74UX_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);

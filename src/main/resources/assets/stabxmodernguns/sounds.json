@@ -1422,8 +1422,113 @@
         "name": "stabxmodernguns:item/ratnik19_suppressed"
       }
     ]
+  },
+
+
+
+  "item.akx117.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/akx117_fire"
+      }
+    ]
+  },
+  "item.akx117.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/akx117_cock"
+      }
+    ]
+  },
+
+  "item.akx117.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/akx117_suppressed"
+      }
+    ]
+  },
+
+
+  "item.hcar762.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hcar762_fire"
+      }
+    ]
+  },
+  "item.hcar762.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hcar762_cock"
+      }
+    ]
+  },
+
+  "item.hcar762.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hcar762_suppressed"
+      }
+    ]
+  },
+
+  "item.ro678x.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ro678x_fire"
+      }
+    ]
+  },
+  "item.ro678x.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ro678x_cock"
+      }
+    ]
+  },
+
+  "item.ro678x.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ro678x_suppressed"
+      }
+    ]
+  },
+
+  "item.svch545.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/svch545_fire"
+      }
+    ]
+  },
+  "item.svch545.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/svch545_cock"
+      }
+    ]
+  },
+
+  "item.svch545.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/svch545_suppressed"
+      }
+    ]
   }
-
-
 
 }

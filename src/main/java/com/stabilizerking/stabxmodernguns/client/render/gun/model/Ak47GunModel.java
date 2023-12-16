@@ -41,7 +41,7 @@ public class Ak47GunModel implements IOverrideModel {
             RenderUtil.renderModel(SpecialModels.AK_47_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
-            RenderUtil.renderModel(SpecialModels.AK_47_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.AK_47_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
             RenderUtil.renderModel(SpecialModels.AK_47_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);

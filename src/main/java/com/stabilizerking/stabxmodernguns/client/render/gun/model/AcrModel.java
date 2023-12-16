@@ -45,7 +45,7 @@ public class AcrModel implements IOverrideModel {
 
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
-            RenderUtil.renderModel(SpecialModels.ACR_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.ACR_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
             RenderUtil.renderModel(SpecialModels.ACR_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);

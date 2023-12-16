@@ -75,7 +75,7 @@
 
 
             STABX_LMGS_GROUP = event.registerCreativeModeTab(new ResourceLocation(StabxModernGuns.MOD_ID, "stabx_lmgs"),
-                    builder -> builder.icon(() -> StabxModUtils.gunWithoutBar(ModItemRegisteration.M_60.get())).
+                    builder -> builder.icon(() -> StabxModUtils.gunWithoutBar(ModItemRegisteration.M60.get())).
                             title(Component.literal("Light Machine Guns")).build());
 
             //----------------------------------------------------Shot guns-------------------------------------------------------------------------------//

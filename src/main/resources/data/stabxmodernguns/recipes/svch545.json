@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 88,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "stabxmodernguns:svch545"
+  }
+}

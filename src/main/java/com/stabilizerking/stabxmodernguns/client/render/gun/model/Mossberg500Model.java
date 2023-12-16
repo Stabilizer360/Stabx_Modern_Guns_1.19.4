@@ -6,7 +6,10 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.init.ModItems;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import com.stabilizerking.stabxmodernguns.client.SpecialModels;
+import com.stabilizerking.stabxmodernguns.registeration.ModItemRegisteration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,6 +34,59 @@ public class Mossberg500Model implements IOverrideModel {
         } else {
             RenderUtil.renderModel(SpecialModels.MOSSBERG500_IRONSIGHTS_MOUNT.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
+
+
+        //------------------------------------------------------------ Gun Barrel part--------------------------------------------------------------------//
+        // First we will do a barrel IF this works
+        if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+        //------------------------------------------------------------ Stock part--------------------------------------------------------------------//
+        // Now We  will not same behavior with stock
+        if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get()) {
+            //Rendering From The MrCrayFishes Gun Mod itself
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        } if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.TACTICAL_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+
+        }  if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+            //Now Rendering thingy From My mod Stocks
+        } if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.LIGHT_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_LIGHT_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.MEDIUM_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_MEDIUM_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.ANTI_RECOIl_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_ANTI_RECOIl_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItemRegisteration.HEAVY_STOCK.get()) {
+            RenderUtil.renderModel(SpecialModels.MOSSBERG500_HEAVY_STOCK.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
         matrix.pushPose();
         matrix.translate(0, -5.8 * 0.0625, 0);

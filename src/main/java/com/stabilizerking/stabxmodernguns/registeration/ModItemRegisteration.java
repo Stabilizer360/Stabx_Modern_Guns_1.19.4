@@ -65,6 +65,8 @@ public class ModItemRegisteration {
     public static final RegistryObject<GunItem> VECTOR45 = ITEMS.register("kriss_vector45",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<GunItem> RO678X = ITEMS.register("ro678x",
+            () -> new GunItem(new Item.Properties().stacksTo(1)));
 
 
     //-------------------------------------------------Assault Rifles ---------------------------------------------------------------//
@@ -128,7 +130,8 @@ public class ModItemRegisteration {
     public static final RegistryObject<GunItem> RATNIK19 = ITEMS.register("ratnik19",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
-
+    public static final RegistryObject<GunItem> AKX117 = ITEMS.register("akx117",
+            () -> new GunItem(new Item.Properties().stacksTo(1)));
 
     //-----------------------------------------------------ShotGuns ---------------------------------------------------------------//
 
@@ -192,10 +195,13 @@ public class ModItemRegisteration {
     public static final RegistryObject<GunItem> DRAGNAOV_SVD= ITEMS.register("dragnaov_svd",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<GunItem> SVCH545 = ITEMS.register("svch545",
+            () -> new GunItem(new Item.Properties().stacksTo(1)));
+
 
     //--------------------------------------------------Light Machine Guns ---------------------------------------------------------------//
 
-    public static final RegistryObject<GunItem> M_60 = ITEMS.register("m60",
+    public static final RegistryObject<GunItem> M60 = ITEMS.register("m60",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<GunItem> RPK = ITEMS.register("rpk",

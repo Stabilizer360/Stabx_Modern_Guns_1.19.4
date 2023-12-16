@@ -16,8 +16,8 @@
     "visible": false,
     "damage": 15,
     "size": 0.2,
-    "speed": 70.0,
-    "life": 156
+    "speed": 50.0,
+    "life": 40
   },
   "sounds": {
     "fire": "stabxmodernguns:item.sks.fire",

@@ -48,7 +48,12 @@
 			"barrel": {
 				"yOffset": 4.1,
 				"zOffset": -15.1,
-				"scale": 0.5
+				"scale": 0
+			},
+			"stock": {
+				"yOffset": 2.4,
+				"zOffset": 9,
+				"scale": 0
 			}
 		}
 	}

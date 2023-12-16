@@ -19,7 +19,7 @@
 		"damage": 32.5,
 		"size": 0.2,
 		"speed": 15.0,
-		"life": 80
+		"life": 45
 	},
 	"sounds": {
 		"fire": "stabxmodernguns:item.spas12.fire",
@@ -48,12 +48,7 @@
 			"barrel": {
 				"yOffset": 2.7,
 				"zOffset": -19.3,
-				"scale": 0.5
-			},
-			"underBarrel": {
-				"yOffset": 0.7,
-				"zOffset": -7,
-				"scale": 0.6
+				"scale": 0
 			}
 		}
 	}

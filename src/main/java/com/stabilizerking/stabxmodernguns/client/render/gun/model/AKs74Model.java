@@ -41,7 +41,7 @@ public class AKs74Model implements IOverrideModel {
             RenderUtil.renderModel(SpecialModels.AKS74_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
-            RenderUtil.renderModel(SpecialModels.AKS74_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.AKS74_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
             RenderUtil.renderModel(SpecialModels.AKS74_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);

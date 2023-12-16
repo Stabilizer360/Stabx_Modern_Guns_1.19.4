@@ -6,7 +6,10 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.init.ModItems;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import com.stabilizerking.stabxmodernguns.client.SpecialModels;
+import com.stabilizerking.stabxmodernguns.registeration.ModItemRegisteration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,6 +34,24 @@ public class SuperShortyModel implements IOverrideModel {
         } else {
             RenderUtil.renderModel(SpecialModels.SUPER_SHORTY_IRONSIGHTS_MOUNT.getModel(), stack, matrix, renderingbuffer, light, overlay);
         }
+
+
+        //------------------------------------------------------------ Gun Barrel part--------------------------------------------------------------------//
+        // First we will do a barrel IF this works
+        if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
+            RenderUtil.renderModel(SpecialModels.SUPER_SHORTY_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+
+        } if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
+            RenderUtil.renderModel(SpecialModels.SUPER_SHORTY_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+
+        } if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
+            RenderUtil.renderModel(SpecialModels.SUPER_SHORTY_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+        }
+
+
+
+
 
         matrix.pushPose();
         matrix.translate(0, -5.8 * 0.0625, 0);

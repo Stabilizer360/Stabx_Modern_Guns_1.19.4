@@ -76,6 +76,11 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> VECTOR45_SUPPRESSED = register("item.vector45.suppressed");
 
 
+    public static final RegistryObject<SoundEvent> M4_SMG_FIRE = register("item.ro678x.fire");
+    public static final RegistryObject<SoundEvent> M4_SMG_COCK = register("item.ro678x.cock");
+    public static final RegistryObject<SoundEvent> M4_SMG_SUPPRESSED = register("item.ro678x.suppressed");
+
+
     //--------------------------------------------------------Assault Rifles Gun Sounds-----------------------------------------------------------------------
 
 
@@ -168,6 +173,11 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> AZ67_SUPPRESSED = register("item.az67.suppressed");
 
 
+    public static final RegistryObject<SoundEvent> AKx117_FIRE = register("item.akx117.fire");
+    public static final RegistryObject<SoundEvent> AKx117_COCK = register("item.akx117.cock");
+    public static final RegistryObject<SoundEvent> AKx117_SUPPRESSED = register("item.akx117.suppressed");
+
+
     public static final RegistryObject<SoundEvent> RATNIK19_FIRE = register("item.ratnik19.fire");
     public static final RegistryObject<SoundEvent> RATNIK19_COCK = register("item.ratnik19.cock");
     public static final RegistryObject<SoundEvent> RATNIK19_SUPPRESSED = register("item.ratnik19.suppressed");
@@ -202,6 +212,9 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> SKS_SUPPRESSED = register("item.sks.suppressed");
     public static final RegistryObject<SoundEvent> SKS_COCK = register("item.sks.cock");
 
+    public static final RegistryObject<SoundEvent> HCAR762_FIRE = register("item.hcar762.fire");
+    public static final RegistryObject<SoundEvent> HCAR762_SUPPRESSED = register("item.hcar762.suppressed");
+    public static final RegistryObject<SoundEvent> HCAR762_COCK = register("item.hcar762.cock");
 
     //---------------------------------------------------------Rifles Gun Sounds------------------------------------------------------------------------------
 
@@ -253,6 +266,10 @@ public class ModSoundRegisteration {
     public static final RegistryObject<SoundEvent> SVD_FIRE = register("item.svd.fire");
     public static final RegistryObject<SoundEvent> SVD_COCK = register("item.svd.cock");
     public static final RegistryObject<SoundEvent> SVD_SUPPRESSED = register("item.svd.suppressed");
+
+    public static final RegistryObject<SoundEvent> SVCH_FIRE = register("item.svch545.fire");
+    public static final RegistryObject<SoundEvent> SVCH_COCK = register("item.svch545.cock");
+    public static final RegistryObject<SoundEvent> SVCH_SUPPRESSED = register("item.svch545.suppressed");
 
 
     //--------------------------------------------------------------Shotgun Gun Sounds----------------------------------------------------------------
