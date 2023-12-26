@@ -34,7 +34,7 @@ public class Striker_45Model implements IOverrideModel {
             RenderUtil.renderModel(SpecialModels.STRIKER45_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_SUPPRESSOR.get()) {
-            RenderUtil.renderModel(SpecialModels.STRIKER45_ADVANCED_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.STRIKER45_SUPPRESSOR.getModel(), stack, matrix, renderingbuffer, light, overlay);
 
         } if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItemRegisteration.ADVANCED_MUZZLE_BRAKE.get()) {
             RenderUtil.renderModel(SpecialModels.STRIKER45_ADVANCED_MUZZLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
