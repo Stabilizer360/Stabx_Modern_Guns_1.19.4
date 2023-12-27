@@ -46,13 +46,13 @@
 			},
 			"barrel": {
 				"yOffset": 9.5,
-				"zOffset": -11,
-				"scale": 0.5
+				"zOffset": -17,
+				"scale": 0
 			},
 			"underBarrel": {
 				"yOffset": 8.5,
 				"zOffset": -5.5,
-				"scale" : 1.1
+				"scale" : 0
 			},
 			"stock": {
 				"yOffset": 2.4,

@@ -2,7 +2,7 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "tag": "forge:gunpowder",
+      "item": "stabxmodernguns:smokeless_gunpowder",
       "count": 3
     },
     {

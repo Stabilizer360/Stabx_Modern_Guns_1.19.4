@@ -3,7 +3,7 @@
   "materials": [
     {
       "count": 15,
-      "tag": "forge:gunpowder"
+      "item": "stabxmodernguns:smokeless_gunpowder"
     },
     {
       "count": 10,

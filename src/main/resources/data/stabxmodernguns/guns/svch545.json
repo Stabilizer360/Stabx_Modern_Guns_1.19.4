@@ -1,47 +1,47 @@
 {
   "general": {
     "auto": false,
-    "rate": 5,
+    "rate": 13,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 20,
+    "maxAmmo": 10,
     "reloadAmount": 10,
     "recoilAngle": 5,
-    "recoilKick": 1.4,
-    "recoilAdsReduction": 0.8,
+    "recoilKick": 2.1,
+    "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
-    "spread": 2.0
+    "spread": 0.1
   },
   "projectile": {
     "item": "stabxmodernguns:7.62x51mm_nato",
     "visible": false,
     "gravity": true,
-    "damage": 35,
+    "damage": 50,
     "size": 0.7,
-    "speed": 120,
-    "life": 167
+    "speed": 100,
+    "life": 200
   },
   "sounds": {
-    "fire": "stabxmodernguns:item.scar17.fire",
+    "fire": "stabxmodernguns:item.svch545.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "stabxmodernguns:item.scar17.cock",
-    "silencedFire": "stabxmodernguns:item.scar17.suppressed"
+    "cock": "stabxmodernguns:item.svch545.cock",
+    "silencedFire": "stabxmodernguns:item.svch545.suppressed"
   },
     "display": {
 	"flash": {
-	"yOffset": 5.8,
-	"zOffset": -16
+	"yOffset": 5,
+	"zOffset": -24
 		}
 	},
   "modules": {
     "zoom": {
       "fovModifier": 0.6,
-      "yOffset": 9.15,
-      "zOffset": 1
+      "yOffset": 8,
+      "zOffset": -1
     },
     "attachments": {
       "scope": {
-        "yOffset": 7.5,
-        "zOffset": 3.5,
+        "yOffset": 6.3,
+        "zOffset": 5.5,
         "scale": 0.8
       },
       "underBarrel": {
@@ -50,8 +50,8 @@
         "scale": 0
       },
       "barrel": {
-        "yOffset": 6,
-        "zOffset": -16,
+        "yOffset": 5,
+        "zOffset": -23,
         "scale": 0
       }
     }

@@ -12,7 +12,7 @@
 		"spread": 0.80
 	},
 	"projectile": {
-		"item": "stabxmodernguns:7.62mm",
+		"item": "stabxmodernguns:5.56x45_nato",
 		"visible": false,
 		"gravity": true,
 		"damage": 8,
@@ -46,7 +46,7 @@
 			},
 			"barrel": {
 				"yOffset": 2.7,
-				"zOffset": -16,
+				"zOffset": -20,
 				"scale": 0
 			},
 			"underBarrel": {

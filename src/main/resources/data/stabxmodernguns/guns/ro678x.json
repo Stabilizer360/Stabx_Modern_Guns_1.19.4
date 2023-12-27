@@ -1,30 +1,30 @@
 {
 	"general": {
 		"auto": true,
-		"rate": 2,
+		"rate": 1,
 		"gripType": "cgm:two_handed",
-		"maxAmmo": 30,
+		"maxAmmo": 45,
 		"reloadAmount": 10,
-		"recoilAngle": 1.8,
-		"recoilKick": 0.6,
-		"recoilAdsReduction": 0.9,
+		"recoilAngle": 0.5,
+		"recoilKick": 0.4,
+		"recoilAdsReduction": 0.5,
 		"alwaysSpread": true,
 		"spread": 0.90
 	},
 	"projectile": {
-		"item": "stabxmodernguns:5.56x45_nato",
+		"item": "stabxmodernguns:9mm",
 		"visible": false,
 		"gravity": true,
 		"damage": 6.5,
 		"size": 0.2,
-		"speed": 20.0,
-		"life": 60
+		"speed": 50.0,
+		"life": 120
 	},
 	"sounds": {
-		"fire": "stabxmodernguns:item.m4a1.fire",
+		"fire": "stabxmodernguns:item.ro678x.fire",
 		"reload": "cgm:item.pistol.reload",
-		"cock": "stabxmodernguns:item.m4a1.cock",
-		"silencedFire": "stabxmodernguns:item.m4a1.suppressed"
+		"cock": "stabxmodernguns:item.ro678x.cock",
+		"silencedFire": "stabxmodernguns:item.ro678x.suppressed"
 	},
 	"display": {
 		"flash": {
@@ -46,7 +46,7 @@
 			},
 			"barrel": {
 				"yOffset": 6,
-				"zOffset": -17.9,
+				"zOffset": -20.9,
 				"scale": 0
 			},
 			"underBarrel": {

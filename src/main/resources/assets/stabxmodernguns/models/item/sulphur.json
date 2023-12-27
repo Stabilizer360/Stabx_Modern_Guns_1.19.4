@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "stabxmodernguns:item/craftable_items/sulphur"
+	}
+}

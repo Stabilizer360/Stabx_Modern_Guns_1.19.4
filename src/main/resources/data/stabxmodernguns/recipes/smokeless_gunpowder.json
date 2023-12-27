@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "smokeless_gunpowder",
+  "key": {
+    "F": {
+      "item": "stabxmodernguns:sulphur"
+    },
+    "P": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "FP"
+  ],
+  "result": {
+    "count": 2,
+    "item": "stabxmodernguns:smokeless_gunpowder"
+  },
+  "show_notification": true
+}

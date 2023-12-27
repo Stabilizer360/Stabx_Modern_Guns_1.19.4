@@ -21,10 +21,10 @@
     "life": 167
   },
   "sounds": {
-    "fire": "stabxmodernguns:item.scar17.fire",
+    "fire": "stabxmodernguns:item.hcar762.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "stabxmodernguns:item.scar17.cock",
-    "silencedFire": "stabxmodernguns:item.scar17.suppressed"
+    "cock": "stabxmodernguns:item.hcar762.cock",
+    "silencedFire": "stabxmodernguns:item.hcar762.suppressed"
   },
     "display": {
 	"flash": {
@@ -51,7 +51,7 @@
       },
       "barrel": {
         "yOffset": 6,
-        "zOffset": -16,
+        "zOffset": -20,
         "scale": 0
       }
     }

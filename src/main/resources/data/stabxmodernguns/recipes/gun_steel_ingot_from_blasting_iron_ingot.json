@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2,
+  "group": "gun_steel_ingot",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "stabxmodernguns:gun_steel_ingot"
+}

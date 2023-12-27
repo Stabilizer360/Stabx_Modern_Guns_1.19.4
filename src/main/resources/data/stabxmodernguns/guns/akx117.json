@@ -3,7 +3,7 @@
 		"auto": true,
 		"rate": 2,
 		"gripType": "cgm:two_handed",
-		"maxAmmo": 30,
+		"maxAmmo": 60,
 		"reloadAmount": 10,
 		"recoilAngle": 2,
 		"recoilKick": 1,
@@ -12,19 +12,19 @@
 		"spread": 0.80
 	},
 	"projectile": {
-		"item": "stabxmodernguns:7.62mm",
+		"item": "stabxmodernguns:5.56x45_nato",
 		"visible": false,
 		"gravity": true,
 		"damage": 8,
 		"size": 0.2,
-		"speed": 25,
-		"life": 35
+		"speed": 70,
+		"life": 156
 	},
 	"sounds": {
-		"fire": "stabxmodernguns:item.ratnik19.fire",
+		"fire": "stabxmodernguns:item.akx117.fire",
 		"reload": "cgm:item.pistol.reload",
-		"cock": "stabxmodernguns:item.ratnik19.cock",
-		"silencedFire": "stabxmodernguns:item.ratnik19.suppressed"
+		"cock": "stabxmodernguns:item.akx117.cock",
+		"silencedFire": "stabxmodernguns:item.akx117.suppressed"
 	},
 	"display": {
 		"flash": {
@@ -46,7 +46,7 @@
 			},
 			"barrel": {
 				"yOffset": 2.7,
-				"zOffset": -16,
+				"zOffset": -20,
 				"scale": 0
 			},
 			"underBarrel": {

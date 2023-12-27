@@ -46,7 +46,7 @@
 			},
 			"barrel": {
 				"yOffset": 2.6,
-				"zOffset": -9,
+				"zOffset": -16,
 				"scale": 0
 			},
 			"underBarrel": {

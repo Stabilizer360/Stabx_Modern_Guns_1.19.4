@@ -215,6 +215,16 @@ public class ModItemRegisteration {
     public static final RegistryObject<GunItem> MK_170_CROSSBOW= ITEMS.register("mk_170_crossbow",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<Item> SULPHUR = ITEMS.register("sulphur",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GUN_STEEL_INGOT = ITEMS.register("gun_steel_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SMOKELESS_GUNPOWDER = ITEMS.register("smokeless_gunpowder",
+            () -> new Item(new Item.Properties()));
+
+
 
     //---------------------------------------Guns Attachments / Sight Scope Attachments ---------------------------------------------------------------//
 
@@ -283,6 +293,7 @@ public class ModItemRegisteration {
 
 
     //-------------------------------------------------------Weapons Ammunition--------------------------------------------------------------//
+
 
     public static final RegistryObject<Item> NINE_MM = ITEMS.register("9mm",
             () -> new AmmoItem(new Item.Properties()));

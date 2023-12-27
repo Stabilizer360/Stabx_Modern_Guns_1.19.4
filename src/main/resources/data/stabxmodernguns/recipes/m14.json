@@ -3,7 +3,7 @@
   "materials": [
     {
       "count": 78,
-      "tag": "forge:ingots/iron"
+      "item": "stabxmodernguns:gun_steel_ingot"
     },
     {
       "count": 4,

@@ -17,7 +17,7 @@
     "damage": 16.0,
     "size": 0.2,
     "speed": 25.0,
-    "life": 35
+    "life": 120
   },
   "sounds": {
     "fire": "stabxmodernguns:item.magnum500.fire",

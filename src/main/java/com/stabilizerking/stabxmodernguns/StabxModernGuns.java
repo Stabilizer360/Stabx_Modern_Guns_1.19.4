@@ -189,6 +189,9 @@ public class StabxModernGuns {
             List<GunItem> gunItems = new ArrayList<>();
 
             gunItems.add(ModItemRegisteration.MK_170_CROSSBOW.get());
+            event.accept(ModItemRegisteration.SMOKELESS_GUNPOWDER);
+            event.accept(ModItemRegisteration.SULPHUR);
+            event.accept(ModItemRegisteration.GUN_STEEL_INGOT);
 
             for (GunItem gun : gunItems) {
                 event.accept(StabxModUtils.gunWithoutBar(gun));
